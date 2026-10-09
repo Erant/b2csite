@@ -1,0 +1,8 @@
+{
+  "name": "b2csite-tools",
+  "private": true,
+  "description": "Build-time tools for the b2crunner showcase (splat conversion, thumbnails, viewer).",
+  "dependencies": {
+    "@playcanvas/splat-transform": "3.10.1"
+  }
+}
