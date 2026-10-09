@@ -4,8 +4,8 @@
 For every run under --src (a folder of run directories, each with ply/scene.ply
 and log.txt) this writes:
 
-  splats/<id>.sog          the splat, SOG-compressed at full SH3, turned y-up
-                           and centred on the origin (the runs are y-down)
+  splats/<id>.sog          the splat, SOG-compressed at full SH3, turned upright
+                           for PlayCanvas viewers (the runs are y-down)
   settings/<id>.json       viewer settings: background and a camera framing it
   thumbs/<id>-front.webp   transparent renders from the photograph's side and
   thumbs/<id>-back.webp    from behind
@@ -35,11 +35,19 @@ from PIL import Image
 SITE = Path(__file__).resolve().parent.parent
 TOOLS = SITE / "tools"
 
-# The viewer's field of view (on the wider axis), the widest stage it frames
-# for, and the stage background (sRGB 0-1). The viewer shows the photograph's
-# side from +z (splat-transform's renderer from -z).
+# The vertical field of view the subject's height fills on a landscape stage
+# (viewer/autoframe.js widens it when the stage is too narrow for the subject),
+# the margin around the subject, and the stage background (sRGB 0-1).
+#
+# Frames: the run's camera that saw the photograph sits at the origin, looking
+# down -z at the subject, y down. The SOG is written turned 180 degrees about
+# z, so in the viewer (and splat-transform's renderer) the subject stands y-up,
+# its centre c is at (-cx, -cy, cz) and the photograph's side faces +z.
+# (splat-transform and the viewer each turn about z on their own as well; the
+# two cancel.)
 FOV = 35.0
-STAGE_ASPECT = 1.4
+MARGIN = 1.08
+MARGIN_WIDTH = 1.2
 BACKGROUND = [0.078, 0.078, 0.086]
 THUMB_SIZE = (480, 720)
 INPUT_MAX = 1400
@@ -106,7 +114,9 @@ def reference_input(run_dir, uploads_root):
     return (image if image.exists() else None), prompt
 
 
-def viewer_settings(distance):
+def viewer_settings(centre, distance, fit):
+    target = [round(-centre[0], 4), round(-centre[1], 4), round(centre[2], 4)]
+    position = [target[0], target[1], round(target[2] + distance, 4)]
     return {
         "version": 2,
         "tonemapping": "linear",
@@ -120,19 +130,26 @@ def viewer_settings(distance):
             "fringing": {"enabled": False, "intensity": 0.5},
         },
         "animTracks": [],
-        "cameras": [{"initial": {"position": [0, 0, round(distance, 3)], "target": [0, 0, 0], "fov": FOV}}],
+        "cameras": [{"initial": {"position": position, "target": target, "fov": FOV}}],
         "annotations": [],
         "startMode": "default",
+        # read by viewer/autoframe.js, not by the viewer
+        "b2cFit": fit,
     }
 
 
-def write_settings(rid, height):
-    """Frame the subject's height with a margin. The viewer applies its field of
-    view to the wider axis, so on a landscape stage (up to STAGE_ASPECT) the
-    vertical view is narrower than FOV."""
-    half = math.tan(math.radians(FOV / 2)) / STAGE_ASPECT
-    distance = (height / 2 * 1.08) / half
-    (SITE / "settings" / f"{rid}.json").write_text(json.dumps(viewer_settings(distance), indent=2) + "\n")
+def write_settings(rid, centre, size):
+    """Put the camera where FOV frames the subject's height, and hand
+    autoframe.js the half extents it keeps in view at any stage aspect. The
+    turntable swings the depth across the screen too, so the half width is the
+    larger of the two horizontal extents."""
+    fit = {"halfHeight": round(size["y"] / 2 * MARGIN, 4),
+           # hands and fingertips lie past the 99th percentile, sideways
+           "halfWidth": round(max(size["x"], size["z"]) / 2 * MARGIN_WIDTH, 4),
+           # how far the turntable can bring a part of the subject towards the camera
+           "radius": round(max(size["x"], size["z"]) / 2, 4)}
+    distance = fit["halfHeight"] / math.tan(math.radians(FOV / 2))
+    (SITE / "settings" / f"{rid}.json").write_text(json.dumps(viewer_settings(centre, distance, fit), indent=2) + "\n")
 
 
 def save_webp(src, dst, size=None, quality=85):
@@ -149,27 +166,26 @@ def build_run(st, rid, run_dir, uploads_root, force):
     meta_file = SITE / "data" / "runs" / f"{rid}.json"
     if not force and sog.exists() and meta_file.exists() and sog.stat().st_mtime > ply.stat().st_mtime:
         meta = json.loads(meta_file.read_text())
-        write_settings(rid, meta["height_m"])
+        write_settings(rid, meta["centre_m"], meta["size_m"])
         return meta
 
     lo, hi, count = ply_bounds(ply)
     centre = [(a + b) / 2 for a, b in zip(lo, hi)]
-    height = hi[1] - lo[1]
-    # 180 degrees about x turns the y-down run y-up (and puts the photograph's
-    # camera on -z); the translation then centres the subject on the origin.
-    # splat-transform applies -t in PlayCanvas's frame, which is the file's
-    # turned 180 degrees about z, so x and y go in negated.
-    shift = f"{centre[0]:.4f},{-centre[1]:.4f},{centre[2]:.4f}"
-    run([st, "-w", str(ply), "-r", "180,0,0", "-t", shift, str(sog)])
+    centre = [round(c, 4) for c in centre]
+    size = dict(zip("xyz", (round(b - a, 3) for a, b in zip(lo, hi))))
+    # Only the turn upright, no translation: the viewer settings aim the
+    # camera at the subject instead.
+    run([st, "-w", str(ply), "-r", "0,0,180", str(sog)])
 
-    write_settings(rid, height)
+    write_settings(rid, centre, size)
 
-    thumb_distance = (height / 2 * 1.06) / math.tan(math.radians(15))
+    thumb_distance = (size["y"] / 2 * 1.06) / math.tan(math.radians(15))
+    cx, cy, cz = -centre[0], -centre[1], centre[2]
     with tempfile.TemporaryDirectory() as tmp:
-        for side, z in (("front", -thumb_distance), ("back", thumb_distance)):
+        for side, z in (("front", cz + thumb_distance), ("back", cz - thumb_distance)):
             raw = Path(tmp) / f"{side}.webp"
             run([st, "-w", str(sog), str(raw),
-                 "--camera-pos", f"0,0,{z:.3f}", "--camera-target", "0,0,0", "--camera-up", "0,1,0",
+                 "--camera-pos", f"{cx},{cy},{z:.3f}", "--camera-target", f"{cx},{cy},{cz}", "--camera-up", "0,1,0",
                  "--camera-fov", "30", "--resolution", f"{THUMB_SIZE[0]}x{THUMB_SIZE[1]}",
                  "--background", "0,0,0,0"])
             save_webp(raw, SITE / "thumbs" / f"{rid}-{side}.webp", quality=82)
@@ -186,7 +202,8 @@ def build_run(st, rid, run_dir, uploads_root, force):
         "run": run_dir.name,
         "prompt": prompt,
         "gaussians": count,
-        "height_m": round(height, 3),
+        "centre_m": centre,
+        "size_m": size,
         "sog_bytes": sog.stat().st_size,
         "input": {"w": input_size[0], "h": input_size[1]} if input_size else None,
     }
@@ -200,8 +217,14 @@ def build_viewer(st, sample_sog):
         run([st, "-w", str(sample_sog), str(Path(tmp) / "index.html"), "--unbundled"])
         out = SITE / "viewer"
         out.mkdir(exist_ok=True)
-        for name in ("index.html", "index.js", "index.css"):
+        for name in ("index.js", "index.css"):
             shutil.copy(Path(tmp) / name, out / name)
+        # autoframe.js (ours, kept in viewer/) runs after the viewer's bootstrap
+        html = (Path(tmp) / "index.html").read_text()
+        tag = '        <script type="module" src="./autoframe.js"></script>\n'
+        if "</body>" not in html:
+            sys.exit("viewer index.html has no </body> to put autoframe.js before")
+        (out / "index.html").write_text(html.replace("    </body>", tag + "    </body>", 1))
     version = subprocess.run([st, "--version"], capture_output=True, text=True).stdout.strip()
     (SITE / "viewer" / "VERSION").write_text(version + "\n")
 

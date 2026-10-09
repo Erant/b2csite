@@ -7,9 +7,10 @@ files as they are.
 
 ```
 index.html, assets/      the page
-viewer/                  the SuperSplat viewer, unpacked by splat-transform (VERSION)
-splats/<id>.sog          SOG-compressed splats (full SH3, y-up, centred)
-settings/<id>.json       per-splat viewer settings (camera framing, background)
+viewer/                  the SuperSplat viewer, unpacked by splat-transform (VERSION),
+                         plus autoframe.js, which keeps the subject framed at any size
+splats/<id>.sog          SOG-compressed splats (full SH3, upright for PlayCanvas)
+settings/<id>.json       per-splat viewer settings (camera on the subject, its extents)
 thumbs/<id>-{front,back}.webp   gallery renders
 inputs/<id>.webp         the reference sheet each run started from
 data/gallery.json        what the page lists; data/runs/<id>.json per run
