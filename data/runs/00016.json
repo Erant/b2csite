@@ -1,0 +1,21 @@
+{
+  "id": "00016",
+  "run": "helical-joined_00016-20261005-132732-832d4a",
+  "prompt": "a woman in her twenties with long pink hair, medium build, light brown skin, wearing a bright pink sports bra with thin straps and a scoop neck, and matching bright pink high-waisted shorts with a smooth fit and a hem reaching mid-thigh, white athletic sneakers with laces tied, standing with the weight on one leg and the other leg slightly bent, arms at the sides, soft, even, low-contrast lighting.",
+  "gaussians": 204772,
+  "centre_m": [
+    0.0572,
+    -0.039,
+    -2.0588
+  ],
+  "size_m": {
+    "x": 0.529,
+    "y": 1.627,
+    "z": 0.453
+  },
+  "sog_bytes": 5697933,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

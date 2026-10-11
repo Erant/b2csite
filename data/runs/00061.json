@@ -1,0 +1,21 @@
+{
+  "id": "00061",
+  "run": "helical-joined_00061-20261005-132736-142130",
+  "prompt": "a man in his fifties with a dark complexion, short graying beard, and short hair, wearing a plaid long-sleeved shirt under a bright yellow safety vest with reflective gray stripes, and dark brown work pants, wearing dark brown work boots with mud stains, standing with the weight on one leg and one knee slightly bent, hands in pockets, soft, even, low-contrast studio lighting.",
+  "gaussians": 256252,
+  "centre_m": [
+    0.0038,
+    0.0036,
+    -1.9841
+  ],
+  "size_m": {
+    "x": 0.504,
+    "y": 1.686,
+    "z": 0.608
+  },
+  "sog_bytes": 6424513,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

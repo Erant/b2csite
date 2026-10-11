@@ -1,0 +1,21 @@
+{
+  "id": "00004",
+  "run": "helical-joined_00004-20261005-132732-eee48a",
+  "prompt": "a woman in her twenties with fair skin, long dark hair tied in a high ponytail, and a slim build, wearing a leopard-print bikini top with thin straps and a matching bikini bottom, covered by a sheer black wrap tied at the waist, barefoot with no socks or shoes, standing upright with the arms bent at the sides and hands on the hips, soft, even, low-contrast studio lighting.",
+  "gaussians": 181502,
+  "centre_m": [
+    0.0032,
+    0.0189,
+    -2.3653
+  ],
+  "size_m": {
+    "x": 0.697,
+    "y": 1.656,
+    "z": 0.36
+  },
+  "sog_bytes": 5249210,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

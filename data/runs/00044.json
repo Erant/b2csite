@@ -1,0 +1,21 @@
+{
+  "id": "00044",
+  "run": "helical-joined_00044-20261005-132735-31a208",
+  "prompt": "a man in his fifties with short dark hair, a stocky build, medium skin tone, wearing a sleeveless top, wearing a dark grey sleeveless athletic top, black basketball shorts with red and white trim, and a white inner lining visible at the hem, wearing black and white high-top sneakers with red accents, white socks, and no visible belt or jewelry, standing with the arms extended at shoulder height, palms facing each other, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 254983,
+  "centre_m": [
+    0.0152,
+    -0.0326,
+    -1.8529
+  ],
+  "size_m": {
+    "x": 0.927,
+    "y": 1.614,
+    "z": 0.528
+  },
+  "sog_bytes": 6223916,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

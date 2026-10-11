@@ -1,0 +1,21 @@
+{
+  "id": "00055",
+  "run": "helical-joined_00055-20261005-132736-d97c32",
+  "prompt": "a man in his sixties with a bald head, a full grey beard, and a stocky build, wearing a white collared shirt under a dark grey waistcoat with four buttons, and a green and blue tartan kilt with a silver-buckled sporran hanging at the front, black leather lace-up boots with dark green knee-high socks, standing upright with hands on hips, soft, even, low-contrast studio lighting.",
+  "gaussians": 256016,
+  "centre_m": [
+    0.0088,
+    -0.0242,
+    -2.2367
+  ],
+  "size_m": {
+    "x": 0.816,
+    "y": 1.593,
+    "z": 0.454
+  },
+  "sog_bytes": 6383465,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

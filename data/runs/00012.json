@@ -1,0 +1,21 @@
+{
+  "id": "00012",
+  "run": "helical-joined_00012-20261005-132732-d49176",
+  "prompt": "a woman in her twenties with curly dark hair, medium build, light brown skin, wearing a dark green satin camisole with thin straps and a V-neck, paired with matching satin shorts with a straight hem, barefoot with no socks or shoes, standing with the weight on one leg and the other leg extended, arms hanging at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 220081,
+  "centre_m": [
+    -0.0188,
+    0.0136,
+    -2.3041
+  ],
+  "size_m": {
+    "x": 0.499,
+    "y": 1.652,
+    "z": 0.813
+  },
+  "sog_bytes": 5882842,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

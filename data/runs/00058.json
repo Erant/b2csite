@@ -1,0 +1,21 @@
+{
+  "id": "00058",
+  "run": "helical-joined_00058-20261005-132736-ac176a",
+  "prompt": "a man in his forties with dark hair, a mustache, and a turban, medium build, medium-dark skin, wearing a cream-colored kurta with gold floral embroidery, a mandarin collar, a front placket with buttons, and a pocket on the left chest, paired with cream-colored trousers, wearing cream-colored traditional shoes with gold accents, standing with the weight on one leg and the other leg lifted, arms slightly bent at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 334206,
+  "centre_m": [
+    0.0095,
+    -0.0267,
+    -2.4462
+  ],
+  "size_m": {
+    "x": 0.63,
+    "y": 1.597,
+    "z": 0.81
+  },
+  "sog_bytes": 7470527,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

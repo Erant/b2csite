@@ -1,0 +1,21 @@
+{
+  "id": "00054",
+  "run": "helical-joined_00054-20261005-132736-f29863",
+  "prompt": "a man in his thirties with short dark hair and a beard, medium build, olive skin tone, wearing a faded grey oversized hoodie with drawstrings and a front pocket, and olive green cargo pants with large pockets on the thighs, wearing grey athletic sneakers with laces, no socks visible, standing upright with hands in the front pockets, soft, even, low-contrast studio lighting.",
+  "gaussians": 251071,
+  "centre_m": [
+    0.0046,
+    -0.0238,
+    -2.2584
+  ],
+  "size_m": {
+    "x": 0.592,
+    "y": 1.654,
+    "z": 0.361
+  },
+  "sog_bytes": 6013171,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

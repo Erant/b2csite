@@ -1,0 +1,21 @@
+{
+  "id": "00050",
+  "run": "helical-joined_00050-20261005-132735-948391",
+  "prompt": "a man in his fifties with short grey hair, dark skin, and a neutral expression, wearing a charcoal grey suit with notch lapels, two-button closure, flap pockets on the hips, and a white dress shirt with a black tie, black leather oxford shoes with laces, worn with no socks, standing with the weight on one leg and the other foot lifted at the heel, soft, even, low-contrast studio lighting.",
+  "gaussians": 196015,
+  "centre_m": [
+    0.0066,
+    0.015,
+    -2.3197
+  ],
+  "size_m": {
+    "x": 0.507,
+    "y": 1.721,
+    "z": 0.434
+  },
+  "sog_bytes": 5204359,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

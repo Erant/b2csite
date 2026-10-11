@@ -1,0 +1,21 @@
+{
+  "id": "00025",
+  "run": "helical-joined_00025-20261005-132733-f55dda",
+  "prompt": "a woman in her twenties with long dark hair, medium build, light brown skin, wearing a form-fitting black latex bodysuit with a high collar and zipper down the front, long sleeves, and a hem that ends at the upper thigh, wearing black patent leather thigh-high boots with stiletto heels and pointed toes, sitting on a block with the legs crossed and the hands resting on the thighs, soft, even, low-contrast studio lighting.",
+  "gaussians": 262123,
+  "centre_m": [
+    0.0383,
+    0.0613,
+    -1.7641
+  ],
+  "size_m": {
+    "x": 0.478,
+    "y": 1.399,
+    "z": 0.663
+  },
+  "sog_bytes": 6194437,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

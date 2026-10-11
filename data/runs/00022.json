@@ -1,0 +1,21 @@
+{
+  "id": "00022",
+  "run": "helical-joined_00022-20261005-132733-1b1d26",
+  "prompt": "a woman in her twenties with curly dark hair, medium build, tan skin, wearing a turquoise halter-neck one-piece swimsuit with a cutout at the midriff, barefoot, standing with the arms extended to the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 200295,
+  "centre_m": [
+    0.0318,
+    0.0737,
+    -2.2937
+  ],
+  "size_m": {
+    "x": 1.062,
+    "y": 1.714,
+    "z": 0.383
+  },
+  "sog_bytes": 5573420,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

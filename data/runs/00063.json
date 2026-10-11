@@ -1,0 +1,21 @@
+{
+  "id": "00063",
+  "run": "helical-joined_00063-20261005-132736-e840b6",
+  "prompt": "a man in his twenties with curly brown hair, fair skin, and a stubble beard, wearing a dark olive green quilted parka with a fur-lined hood, two chest pockets with snap closures, and matching quilted pants, wearing dark brown hiking boots with laces and a rugged sole, standing with arms crossed at the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 259167,
+  "centre_m": [
+    -0.0074,
+    0.0236,
+    -2.083
+  ],
+  "size_m": {
+    "x": 0.496,
+    "y": 1.714,
+    "z": 0.413
+  },
+  "sog_bytes": 6178157,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00013",
+  "run": "helical-joined_00013-20261005-132732-ec586a",
+  "prompt": "a woman in her twenties with short dark hair, medium build, light brown skin, wearing a black strappy bra with gold hardware and a matching high-waisted bikini bottom, barefoot, standing with arms crossed at the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 156820,
+  "centre_m": [
+    0.014,
+    0.0645,
+    -1.8728
+  ],
+  "size_m": {
+    "x": 0.401,
+    "y": 1.667,
+    "z": 0.452
+  },
+  "sog_bytes": 4865737,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00057",
+  "run": "helical-joined_00057-20261005-132736-71e93b",
+  "prompt": "a man in his fifties with a dark mustache and short dark hair, wearing a white, long-sleeved, button-up thobe with a pocket on the left chest and a collar, and a red and white checkered keffiyeh draped over his head, wearing black leather loafers with no socks, standing upright with the arms at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 230694,
+  "centre_m": [
+    0.0158,
+    -0.0025,
+    -2.2063
+  ],
+  "size_m": {
+    "x": 0.539,
+    "y": 1.712,
+    "z": 0.365
+  },
+  "sog_bytes": 5854056,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

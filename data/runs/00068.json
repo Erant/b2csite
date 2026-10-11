@@ -1,0 +1,21 @@
+{
+  "id": "00068",
+  "run": "helical-joined_00068-20261005-132737-c2afa7",
+  "prompt": "a man in his fifties with short dark hair and a grey beard, medium build, dark brown skin, wearing a black and red leather motorcycle suit with silver accents, zippered front, long sleeves, and protective knee pads, wearing black leather motorcycle boots with straps and buckles, no socks visible, standing with the weight on one leg and the other knee bent, holding a helmet under one arm, soft, even, low-contrast studio lighting.",
+  "gaussians": 270286,
+  "centre_m": [
+    -0.0385,
+    0.0238,
+    -2.3004
+  ],
+  "size_m": {
+    "x": 0.782,
+    "y": 1.57,
+    "z": 0.477
+  },
+  "sog_bytes": 6518469,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

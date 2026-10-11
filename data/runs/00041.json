@@ -1,0 +1,21 @@
+{
+  "id": "00041",
+  "run": "helical-joined_00041-20261005-132735-730f69",
+  "prompt": "a man in his fifties with a shaved head, a grey beard, and a muscular build, wearing navy blue swim trunks with a drawstring waist and side pockets, barefoot, standing with one hand on the hip and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 205589,
+  "centre_m": [
+    0.0388,
+    0.0073,
+    -2.3123
+  ],
+  "size_m": {
+    "x": 0.706,
+    "y": 1.647,
+    "z": 0.448
+  },
+  "sog_bytes": 5579754,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

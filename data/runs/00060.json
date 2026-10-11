@@ -1,0 +1,21 @@
+{
+  "id": "00060",
+  "run": "helical-joined_00060-20261005-132736-077223",
+  "prompt": "a man in his sixties with short grey hair, a neutral expression, and a medium build, wearing a dark blue traditional Korean hanbok with a white inner collar and a tied sash at the waist, wearing dark blue traditional Korean geta with white socks, sitting on a cube with the hands clasped at the front of the thighs, soft, even, low-contrast studio lighting.",
+  "gaussians": 315129,
+  "centre_m": [
+    0.0025,
+    -0.0028,
+    -1.9916
+  ],
+  "size_m": {
+    "x": 0.583,
+    "y": 1.282,
+    "z": 0.712
+  },
+  "sog_bytes": 7026625,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

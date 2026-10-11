@@ -1,0 +1,21 @@
+{
+  "id": "00001",
+  "run": "helical-joined_00001-20261005-132725-c00ded",
+  "prompt": "a woman in her twenties with long wavy blonde hair, medium build, tan skin, wearing a red string bikini with thin straps, a ruched top, and a string bottom with adjustable ties at the hips, barefoot with no socks or shoes, standing with the weight on one leg and the other leg bent at the knee, soft, even, low-contrast studio lighting.",
+  "gaussians": 214417,
+  "centre_m": [
+    -0.0058,
+    -0.035,
+    -2.1023
+  ],
+  "size_m": {
+    "x": 0.427,
+    "y": 1.638,
+    "z": 0.478
+  },
+  "sog_bytes": 5766463,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

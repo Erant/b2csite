@@ -1,0 +1,21 @@
+{
+  "id": "00027",
+  "run": "helical-joined_00027-20261005-132733-201dc7",
+  "prompt": "a woman in her twenties with short dark hair, fair skin, and a slender build, wearing a strapless burgundy corset dress with cream lace trim and ruffled hem, black patent leather high heels with bow details, squatting with the knees bent and the hands resting on the thighs, soft, even, low-contrast studio lighting.",
+  "gaussians": 332279,
+  "centre_m": [
+    0.0122,
+    0.001,
+    -1.4126
+  ],
+  "size_m": {
+    "x": 0.659,
+    "y": 1.026,
+    "z": 0.543
+  },
+  "sog_bytes": 7386368,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00015",
+  "run": "helical-joined_00015-20261005-132732-6fb01e",
+  "prompt": "a woman in her twenties with long dark hair, fair skin, and a slim build, wearing a white cropped tank top with a scoop neck and a pair of distressed blue denim shorts with frayed hems and a buttoned fly, barefoot with no socks or shoes, kneeling with the knees together and the torso upright, soft, even, low-contrast studio lighting.",
+  "gaussians": 259920,
+  "centre_m": [
+    0.0252,
+    -0.0972,
+    -1.6468
+  ],
+  "size_m": {
+    "x": 0.595,
+    "y": 1.211,
+    "z": 0.423
+  },
+  "sog_bytes": 6404069,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

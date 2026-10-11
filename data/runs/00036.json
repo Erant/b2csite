@@ -1,0 +1,21 @@
+{
+  "id": "00036",
+  "run": "helical-joined_00036-20261005-132734-920eaf",
+  "prompt": "a woman in her twenties with long pink hair, tan skin, and a neutral expression, wearing an off-the-shoulder cream blouse with puffed sleeves, a brown corset laced at the front, and a frayed brown skirt with a belt, brown leather knee-high boots with frayed laces and no visible socks, standing with one hand raised to the head and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 233909,
+  "centre_m": [
+    -0.0656,
+    0.0043,
+    -2.2044
+  ],
+  "size_m": {
+    "x": 0.588,
+    "y": 1.642,
+    "z": 0.354
+  },
+  "sog_bytes": 6054446,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

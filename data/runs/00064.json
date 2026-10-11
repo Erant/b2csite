@@ -1,0 +1,21 @@
+{
+  "id": "00064",
+  "run": "helical-joined_00064-20261005-132737-e81ee9",
+  "prompt": "a man in his thirties with short dark hair and a beard, medium build, light brown skin, wearing a bright orange insulated snowsuit with black zipper and two vertical zippered pockets on the chest, and a hood, wearing black ski boots with silver buckles and black socks, standing with the arms raised above the head and the hands clasped at the top, soft, even, low-contrast studio lighting.",
+  "gaussians": 217242,
+  "centre_m": [
+    0.0147,
+    -0.0058,
+    -2.0583
+  ],
+  "size_m": {
+    "x": 0.659,
+    "y": 1.891,
+    "z": 0.436
+  },
+  "sog_bytes": 6000584,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00010",
+  "run": "helical-joined_00010-20261005-132732-09eb19",
+  "prompt": "a woman in her thirties with long wavy reddish-brown hair, fair skin, and a slender build, wearing a deep red lace bodysuit with thin spaghetti straps, a plunging neckline, and a fitted silhouette that ends at the upper thighs, wearing nude-colored high-heeled pumps with a transparent finish, standing upright with one arm raised and the hand open, the other arm hanging at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 156506,
+  "centre_m": [
+    -0.0663,
+    0.0175,
+    -2.4152
+  ],
+  "size_m": {
+    "x": 0.621,
+    "y": 1.918,
+    "z": 0.502
+  },
+  "sog_bytes": 4946378,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00072",
+  "run": "helical-joined_00072-20261005-132737-a5ab20",
+  "prompt": "a woman in her sixties with short dark hair, fair skin, and a slender build, wearing a floral bikini with a dark base and pink and orange flowers, the top with thin straps and a tie at the neck, the bottom with side ties and a matching pattern, barefoot with visible toes and natural skin tone, standing with one hand on the hip and the other at the side, weight on one leg, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 185795,
+  "centre_m": [
+    0.0365,
+    -0.0042,
+    -2.0841
+  ],
+  "size_m": {
+    "x": 0.521,
+    "y": 1.659,
+    "z": 0.387
+  },
+  "sog_bytes": 5327659,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

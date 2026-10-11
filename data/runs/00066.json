@@ -1,0 +1,21 @@
+{
+  "id": "00066",
+  "run": "helical-joined_00066-20261005-132737-db8570",
+  "prompt": "a man in his thirties with short dark hair, a strong build, and a neutral expression, wearing a dark, weathered samurai armor with layered plates, a white under-collar, and a thick black sash tied at the waist, wearing dark, worn leather boots with laces and metal reinforcements, standing with the weight on one leg and the other foot lifted slightly, soft, even, low-contrast studio lighting.",
+  "gaussians": 271526,
+  "centre_m": [
+    0.0282,
+    0.0091,
+    -2.5597
+  ],
+  "size_m": {
+    "x": 0.615,
+    "y": 1.638,
+    "z": 0.576
+  },
+  "sog_bytes": 6606873,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

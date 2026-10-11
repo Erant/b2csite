@@ -1,0 +1,21 @@
+{
+  "id": "00049",
+  "run": "helical-joined_00049-20261005-132735-eb6db3",
+  "prompt": "a man in his fifties with a shaved head, round face, and fair skin, wearing a plain white short-sleeved t-shirt and blue denim jeans with a straight hem, white canvas sneakers with white laces and no visible socks, standing with the arms crossed at the front, the weight on both feet, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 239011,
+  "centre_m": [
+    0.0069,
+    -0.0134,
+    -2.0685
+  ],
+  "size_m": {
+    "x": 0.466,
+    "y": 1.658,
+    "z": 0.492
+  },
+  "sog_bytes": 5918358,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

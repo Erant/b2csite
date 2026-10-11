@@ -1,0 +1,21 @@
+{
+  "id": "00074",
+  "run": "helical-joined_00074-20261005-132738-ddcef9",
+  "prompt": "a woman in her thirties with short grey hair, medium build, light brown skin, wearing a grey sleeveless fitted tank top with a rounded neckline and a matching pair of grey form-fitting leggings with a high waist and a smooth hem, barefoot with no socks or shoes, standing upright with the weight on one leg and the other leg slightly bent at the knee, soft, even, low-contrast studio lighting.",
+  "gaussians": 213760,
+  "centre_m": [
+    0.0144,
+    -0.0088,
+    -2.1897
+  ],
+  "size_m": {
+    "x": 0.416,
+    "y": 1.786,
+    "z": 0.66
+  },
+  "sog_bytes": 5643367,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

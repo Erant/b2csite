@@ -1,0 +1,21 @@
+{
+  "id": "00035",
+  "run": "helical-joined_00035-20261005-132734-7f5289",
+  "prompt": "a woman in her twenties with long black hair, fair skin, and a slender build, wearing a shiny black cropped jacket, paired with matching high-waisted shorts, black high-heeled ankle boots with neon green and purple trim, standing with the weight on one leg and one knee bent, soft, even, low-contrast studio lighting.",
+  "gaussians": 209490,
+  "centre_m": [
+    -0.0252,
+    -0.0028,
+    -2.0239
+  ],
+  "size_m": {
+    "x": 0.406,
+    "y": 1.687,
+    "z": 0.462
+  },
+  "sog_bytes": 5559202,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

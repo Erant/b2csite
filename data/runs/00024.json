@@ -1,0 +1,21 @@
+{
+  "id": "00024",
+  "run": "helical-joined_00024-20261005-132733-4d23d2",
+  "prompt": "a woman in her twenties with dark skin, long straight black hair, and a headband, wearing a black-and-white striped halter top bikini with a central clasp and matching high-waisted bottoms with a straight hem, wearing tan strappy high-heeled sandals with ankle ties, standing with the arms akimbo and the weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 202434,
+  "centre_m": [
+    0.0482,
+    0.0366,
+    -2.154
+  ],
+  "size_m": {
+    "x": 0.683,
+    "y": 1.615,
+    "z": 0.425
+  },
+  "sog_bytes": 5553569,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

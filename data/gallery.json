@@ -1,0 +1,1139 @@
+{
+ "featured": "00063",
+ "runs": [
+  {
+   "id": "00063",
+   "run": "helical-joined_00063-20261005-132736-e840b6",
+   "prompt": "a man in his twenties with curly brown hair, fair skin, and a stubble beard, wearing a dark olive green quilted parka with a fur-lined hood, two chest pockets with snap closures, and matching quilted pants, wearing dark brown hiking boots with laces and a rugged sole, standing with arms crossed at the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 259167,
+   "centre_m": [
+    -0.0074,
+    0.0236,
+    -2.083
+   ],
+   "size_m": {
+    "x": 0.496,
+    "y": 1.714,
+    "z": 0.413
+   },
+   "sog_bytes": 6178157,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00030",
+   "run": "helical-joined_00030-20261005-132734-8684f4",
+   "prompt": "a woman in her twenties with long wavy reddish-brown hair, fair skin, and a slender build, wearing a beige feathered bodysuit with silver and turquoise embellishments, a plunging neckline, and a feathered hemline, wearing beige strappy high-heeled sandals, standing with the weight on one leg and the other leg extended, the arms at the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 266943,
+   "centre_m": [
+    0.0557,
+    0.0406,
+    -2.6775
+   ],
+   "size_m": {
+    "x": 0.492,
+    "y": 1.934,
+    "z": 0.594
+   },
+   "sog_bytes": 6543848,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00034",
+   "run": "helical-joined_00034-20261005-132734-299cc1",
+   "prompt": "a woman in her thirties with long brown hair in a ponytail, fair skin, and a slender build, wearing a deep red velvet gown with thin spaghetti straps, a plunging neckline, a high slit on the left thigh, and black lace elbow-length gloves, black satin high-heeled pumps with pointed toes, standing with the weight on one leg and one knee slightly bent, head tilted back with eyes closed, soft, even, low-contrast studio lighting.",
+   "gaussians": 197553,
+   "centre_m": [
+    -0.0244,
+    0.0125,
+    -2.2809
+   ],
+   "size_m": {
+    "x": 0.507,
+    "y": 1.669,
+    "z": 0.542
+   },
+   "sog_bytes": 5667905,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00025",
+   "run": "helical-joined_00025-20261005-132733-f55dda",
+   "prompt": "a woman in her twenties with long dark hair, medium build, light brown skin, wearing a form-fitting black latex bodysuit with a high collar and zipper down the front, long sleeves, and a hem that ends at the upper thigh, wearing black patent leather thigh-high boots with stiletto heels and pointed toes, sitting on a block with the legs crossed and the hands resting on the thighs, soft, even, low-contrast studio lighting.",
+   "gaussians": 262123,
+   "centre_m": [
+    0.0383,
+    0.0613,
+    -1.7641
+   ],
+   "size_m": {
+    "x": 0.478,
+    "y": 1.399,
+    "z": 0.663
+   },
+   "sog_bytes": 6194437,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00007",
+   "run": "helical-joined_00007-20261005-132732-fc73d1",
+   "prompt": "a woman in her twenties with blonde shoulder-length hair, fair skin, and a slim build, wearing a bright green ribbed bikini top with thin straps and a matching bikini bottom with a ribbed texture, white slide-on sandals with a flat sole and no heel, sitting on a grey block with one leg bent and the other extended, hands resting on the knee, soft, even, low-contrast studio lighting.",
+   "gaussians": 274166,
+   "centre_m": [
+    0.01,
+    0.0305,
+    -2.117
+   ],
+   "size_m": {
+    "x": 0.416,
+    "y": 1.423,
+    "z": 0.834
+   },
+   "sog_bytes": 6665663,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00016",
+   "run": "helical-joined_00016-20261005-132732-832d4a",
+   "prompt": "a woman in her twenties with long pink hair, medium build, light brown skin, wearing a bright pink sports bra with thin straps and a scoop neck, and matching bright pink high-waisted shorts with a smooth fit and a hem reaching mid-thigh, white athletic sneakers with laces tied, standing with the weight on one leg and the other leg slightly bent, arms at the sides, soft, even, low-contrast lighting.",
+   "gaussians": 204772,
+   "centre_m": [
+    0.0572,
+    -0.039,
+    -2.0588
+   ],
+   "size_m": {
+    "x": 0.529,
+    "y": 1.627,
+    "z": 0.453
+   },
+   "sog_bytes": 5697933,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00013",
+   "run": "helical-joined_00013-20261005-132732-ec586a",
+   "prompt": "a woman in her twenties with short dark hair, medium build, light brown skin, wearing a black strappy bra with gold hardware and a matching high-waisted bikini bottom, barefoot, standing with arms crossed at the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 156820,
+   "centre_m": [
+    0.014,
+    0.0645,
+    -1.8728
+   ],
+   "size_m": {
+    "x": 0.401,
+    "y": 1.667,
+    "z": 0.452
+   },
+   "sog_bytes": 4865737,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00015",
+   "run": "helical-joined_00015-20261005-132732-6fb01e",
+   "prompt": "a woman in her twenties with long dark hair, fair skin, and a slim build, wearing a white cropped tank top with a scoop neck and a pair of distressed blue denim shorts with frayed hems and a buttoned fly, barefoot with no socks or shoes, kneeling with the knees together and the torso upright, soft, even, low-contrast studio lighting.",
+   "gaussians": 259920,
+   "centre_m": [
+    0.0252,
+    -0.0972,
+    -1.6468
+   ],
+   "size_m": {
+    "x": 0.595,
+    "y": 1.211,
+    "z": 0.423
+   },
+   "sog_bytes": 6404069,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00064",
+   "run": "helical-joined_00064-20261005-132737-e81ee9",
+   "prompt": "a man in his thirties with short dark hair and a beard, medium build, light brown skin, wearing a bright orange insulated snowsuit with black zipper and two vertical zippered pockets on the chest, and a hood, wearing black ski boots with silver buckles and black socks, standing with the arms raised above the head and the hands clasped at the top, soft, even, low-contrast studio lighting.",
+   "gaussians": 217242,
+   "centre_m": [
+    0.0147,
+    -0.0058,
+    -2.0583
+   ],
+   "size_m": {
+    "x": 0.659,
+    "y": 1.891,
+    "z": 0.436
+   },
+   "sog_bytes": 6000584,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00043",
+   "run": "helical-joined_00043-20261005-132735-dcd82f",
+   "prompt": "a man in his forties with dark curly hair, a beard, a muscular build, and a tan skin tone, wearing grey heathered cotton briefs with a plain elastic waistband, barefoot with no socks or shoes, standing upright with the weight on one leg and the other leg slightly bent, soft, even, low-contrast studio lighting.",
+   "gaussians": 209402,
+   "centre_m": [
+    0.0237,
+    0.0087,
+    -2.2465
+   ],
+   "size_m": {
+    "x": 0.46,
+    "y": 1.748,
+    "z": 0.634
+   },
+   "sog_bytes": 5592177,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00041",
+   "run": "helical-joined_00041-20261005-132735-730f69",
+   "prompt": "a man in his fifties with a shaved head, a grey beard, and a muscular build, wearing navy blue swim trunks with a drawstring waist and side pockets, barefoot, standing with one hand on the hip and the other at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 205589,
+   "centre_m": [
+    0.0388,
+    0.0073,
+    -2.3123
+   ],
+   "size_m": {
+    "x": 0.706,
+    "y": 1.647,
+    "z": 0.448
+   },
+   "sog_bytes": 5579754,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00068",
+   "run": "helical-joined_00068-20261005-132737-c2afa7",
+   "prompt": "a man in his fifties with short dark hair and a grey beard, medium build, dark brown skin, wearing a black and red leather motorcycle suit with silver accents, zippered front, long sleeves, and protective knee pads, wearing black leather motorcycle boots with straps and buckles, no socks visible, standing with the weight on one leg and the other knee bent, holding a helmet under one arm, soft, even, low-contrast studio lighting.",
+   "gaussians": 270286,
+   "centre_m": [
+    -0.0385,
+    0.0238,
+    -2.3004
+   ],
+   "size_m": {
+    "x": 0.782,
+    "y": 1.57,
+    "z": 0.477
+   },
+   "sog_bytes": 6518469,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00056",
+   "run": "helical-joined_00056-20261005-132736-45d1fe",
+   "prompt": "a man in his sixties with short dark hair and a mustache, medium build, dark brown skin tone, wearing a cream-colored embroidered robe with long sleeves and a V-neck, over a white shirt, with a matching cream-colored cap, black leather loafers with no socks, standing with one arm raised in a wave and the other hand at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 338183,
+   "centre_m": [
+    -0.0139,
+    -0.0965,
+    -2.2447
+   ],
+   "size_m": {
+    "x": 0.645,
+    "y": 1.678,
+    "z": 0.731
+   },
+   "sog_bytes": 7320673,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00044",
+   "run": "helical-joined_00044-20261005-132735-31a208",
+   "prompt": "a man in his fifties with short dark hair, a stocky build, medium skin tone, wearing a sleeveless top, wearing a dark grey sleeveless athletic top, black basketball shorts with red and white trim, and a white inner lining visible at the hem, wearing black and white high-top sneakers with red accents, white socks, and no visible belt or jewelry, standing with the arms extended at shoulder height, palms facing each other, soft, even, low-contrast studio lighting with faint shadows.",
+   "gaussians": 254983,
+   "centre_m": [
+    0.0152,
+    -0.0326,
+    -1.8529
+   ],
+   "size_m": {
+    "x": 0.927,
+    "y": 1.614,
+    "z": 0.528
+   },
+   "sog_bytes": 6223916,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00005",
+   "run": "helical-joined_00005-20261005-132732-b5e749",
+   "prompt": "a woman in her twenties with long black hair, medium build, tan skin, wearing a metallic gold bikini with thin straps, a triangle top with a central tie, and a matching bottom with side ties, barefoot, standing with the feet apart and the weight on one leg, soft, even, low-contrast studio lighting.",
+   "gaussians": 196030,
+   "centre_m": [
+    0.0034,
+    0.0217,
+    -2.3053
+   ],
+   "size_m": {
+    "x": 0.846,
+    "y": 1.69,
+    "z": 0.627
+   },
+   "sog_bytes": 5465981,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00049",
+   "run": "helical-joined_00049-20261005-132735-eb6db3",
+   "prompt": "a man in his fifties with a shaved head, round face, and fair skin, wearing a plain white short-sleeved t-shirt and blue denim jeans with a straight hem, white canvas sneakers with white laces and no visible socks, standing with the arms crossed at the front, the weight on both feet, soft, even, low-contrast studio lighting with faint shadows.",
+   "gaussians": 239011,
+   "centre_m": [
+    0.0069,
+    -0.0134,
+    -2.0685
+   ],
+   "size_m": {
+    "x": 0.466,
+    "y": 1.658,
+    "z": 0.492
+   },
+   "sog_bytes": 5918358,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00004",
+   "run": "helical-joined_00004-20261005-132732-eee48a",
+   "prompt": "a woman in her twenties with fair skin, long dark hair tied in a high ponytail, and a slim build, wearing a leopard-print bikini top with thin straps and a matching bikini bottom, covered by a sheer black wrap tied at the waist, barefoot with no socks or shoes, standing upright with the arms bent at the sides and hands on the hips, soft, even, low-contrast studio lighting.",
+   "gaussians": 181502,
+   "centre_m": [
+    0.0032,
+    0.0189,
+    -2.3653
+   ],
+   "size_m": {
+    "x": 0.697,
+    "y": 1.656,
+    "z": 0.36
+   },
+   "sog_bytes": 5249210,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00022",
+   "run": "helical-joined_00022-20261005-132733-1b1d26",
+   "prompt": "a woman in her twenties with curly dark hair, medium build, tan skin, wearing a turquoise halter-neck one-piece swimsuit with a cutout at the midriff, barefoot, standing with the arms extended to the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 200295,
+   "centre_m": [
+    0.0318,
+    0.0737,
+    -2.2937
+   ],
+   "size_m": {
+    "x": 1.062,
+    "y": 1.714,
+    "z": 0.383
+   },
+   "sog_bytes": 5573420,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00071",
+   "run": "helical-joined_00071-20261005-132737-6e42cd",
+   "prompt": "a woman in her fifties with dark hair in a long braid, medium build, medium brown skin, wearing a black sleeveless tank top with a scoop neck, paired with a black sheer wrap skirt with a high slit and a gathered waist tie, barefoot, standing upright with the arms at the sides and the weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 192055,
+   "centre_m": [
+    0.0016,
+    0.0049,
+    -2.0655
+   ],
+   "size_m": {
+    "x": 0.552,
+    "y": 1.594,
+    "z": 0.353
+   },
+   "sog_bytes": 5399496,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00067",
+   "run": "helical-joined_00067-20261005-132737-92f55e",
+   "prompt": "a man in his sixties with a mustache, short dark hair, and a weathered complexion, wearing a white beekeeper suit, wearing a white cotton beekeeper suit with a hood, a zipper down the front, and a collar, with a dark blue shirt visible at the neck, wearing black leather work boots with thick soles and no socks, standing upright with the hands clasped at the front of the torso, soft, even, low-contrast studio lighting.",
+   "gaussians": 275814,
+   "centre_m": [
+    -0.0394,
+    0.0052,
+    -2.0648
+   ],
+   "size_m": {
+    "x": 0.541,
+    "y": 1.698,
+    "z": 0.514
+   },
+   "sog_bytes": 6277888,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00072",
+   "run": "helical-joined_00072-20261005-132737-a5ab20",
+   "prompt": "a woman in her sixties with short dark hair, fair skin, and a slender build, wearing a floral bikini with a dark base and pink and orange flowers, the top with thin straps and a tie at the neck, the bottom with side ties and a matching pattern, barefoot with visible toes and natural skin tone, standing with one hand on the hip and the other at the side, weight on one leg, soft, even, low-contrast studio lighting with faint shadows.",
+   "gaussians": 185795,
+   "centre_m": [
+    0.0365,
+    -0.0042,
+    -2.0841
+   ],
+   "size_m": {
+    "x": 0.521,
+    "y": 1.659,
+    "z": 0.387
+   },
+   "sog_bytes": 5327659,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00020",
+   "run": "helical-joined_00020-20261005-132733-38412f",
+   "prompt": "a woman in her twenties with long wavy reddish-brown hair, fair skin, and a slender build, wearing an unbuttoned oversized white cotton shirt over a black bra and black shorts, barefoot with no socks or shoes, standing with the weight on one leg and the other leg slightly bent, one hand on the hip, the other arm hanging at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 194775,
+   "centre_m": [
+    0.0644,
+    0.0315,
+    -1.9902
+   ],
+   "size_m": {
+    "x": 0.568,
+    "y": 1.602,
+    "z": 0.532
+   },
+   "sog_bytes": 5360416,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00035",
+   "run": "helical-joined_00035-20261005-132734-7f5289",
+   "prompt": "a woman in her twenties with long black hair, fair skin, and a slender build, wearing a shiny black cropped jacket, paired with matching high-waisted shorts, black high-heeled ankle boots with neon green and purple trim, standing with the weight on one leg and one knee bent, soft, even, low-contrast studio lighting.",
+   "gaussians": 209490,
+   "centre_m": [
+    -0.0252,
+    -0.0028,
+    -2.0239
+   ],
+   "size_m": {
+    "x": 0.406,
+    "y": 1.687,
+    "z": 0.462
+   },
+   "sog_bytes": 5559202,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00046",
+   "run": "helical-joined_00046-20261005-132735-ee317d",
+   "prompt": "a man in his thirties with short dark hair, a beard, and a muscular build, medium skin tone, wearing a sleeveless athletic tank top with a green and black camouflage pattern, featuring a white crescent moon and star emblem on the chest, and black athletic shorts with a white Nike swoosh on the left thigh, wearing black and grey athletic sneakers with white soles and white socks, standing upright with arms raised and hands clasped above the head, soft, even, low-contrast studio lighting.",
+   "gaussians": 185372,
+   "centre_m": [
+    -0.0292,
+    0.05,
+    -2.2049
+   ],
+   "size_m": {
+    "x": 0.592,
+    "y": 2.074,
+    "z": 0.443
+   },
+   "sog_bytes": 5210013,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00017",
+   "run": "helical-joined_00017-20261005-132733-12d5fb",
+   "prompt": "a woman in her twenties with short dark hair, fair skin, and a slender build, wearing a beige crocheted crop top with tie-front straps and a beige high-waisted mini skirt with a front pocket, wearing beige platform sandals with a flat sole and a thong strap, standing with the weight on one leg and one knee slightly bent, soft, even, low-contrast studio lighting.",
+   "gaussians": 196567,
+   "centre_m": [
+    -0.0146,
+    0.0248,
+    -2.0644
+   ],
+   "size_m": {
+    "x": 0.32,
+    "y": 1.668,
+    "z": 0.487
+   },
+   "sog_bytes": 5459644,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00050",
+   "run": "helical-joined_00050-20261005-132735-948391",
+   "prompt": "a man in his fifties with short grey hair, dark skin, and a neutral expression, wearing a charcoal grey suit with notch lapels, two-button closure, flap pockets on the hips, and a white dress shirt with a black tie, black leather oxford shoes with laces, worn with no socks, standing with the weight on one leg and the other foot lifted at the heel, soft, even, low-contrast studio lighting.",
+   "gaussians": 196015,
+   "centre_m": [
+    0.0066,
+    0.015,
+    -2.3197
+   ],
+   "size_m": {
+    "x": 0.507,
+    "y": 1.721,
+    "z": 0.434
+   },
+   "sog_bytes": 5204359,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00023",
+   "run": "helical-joined_00023-20261005-132733-0e7ce8",
+   "prompt": "a woman in her twenties with short black hair, dark skin, and a slim build, wearing a dark grey crop sports bra with a scoop neck and high-waisted leggings that end at the mid-calf, barefoot with no socks or shoes, standing with the arms slightly bent and relaxed at the sides, the feet parallel and weight evenly distributed, soft, even, low-contrast lighting.",
+   "gaussians": 177638,
+   "centre_m": [
+    0.0919,
+    0.0367,
+    -2.2673
+   ],
+   "size_m": {
+    "x": 0.92,
+    "y": 1.735,
+    "z": 0.588
+   },
+   "sog_bytes": 5136391,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00010",
+   "run": "helical-joined_00010-20261005-132732-09eb19",
+   "prompt": "a woman in her thirties with long wavy reddish-brown hair, fair skin, and a slender build, wearing a deep red lace bodysuit with thin spaghetti straps, a plunging neckline, and a fitted silhouette that ends at the upper thighs, wearing nude-colored high-heeled pumps with a transparent finish, standing upright with one arm raised and the hand open, the other arm hanging at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 156506,
+   "centre_m": [
+    -0.0663,
+    0.0175,
+    -2.4152
+   ],
+   "size_m": {
+    "x": 0.621,
+    "y": 1.918,
+    "z": 0.502
+   },
+   "sog_bytes": 4946378,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00066",
+   "run": "helical-joined_00066-20261005-132737-db8570",
+   "prompt": "a man in his thirties with short dark hair, a strong build, and a neutral expression, wearing a dark, weathered samurai armor with layered plates, a white under-collar, and a thick black sash tied at the waist, wearing dark, worn leather boots with laces and metal reinforcements, standing with the weight on one leg and the other foot lifted slightly, soft, even, low-contrast studio lighting.",
+   "gaussians": 271526,
+   "centre_m": [
+    0.0282,
+    0.0091,
+    -2.5597
+   ],
+   "size_m": {
+    "x": 0.615,
+    "y": 1.638,
+    "z": 0.576
+   },
+   "sog_bytes": 6606873,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00036",
+   "run": "helical-joined_00036-20261005-132734-920eaf",
+   "prompt": "a woman in her twenties with long pink hair, tan skin, and a neutral expression, wearing an off-the-shoulder cream blouse with puffed sleeves, a brown corset laced at the front, and a frayed brown skirt with a belt, brown leather knee-high boots with frayed laces and no visible socks, standing with one hand raised to the head and the other at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 233909,
+   "centre_m": [
+    -0.0656,
+    0.0043,
+    -2.2044
+   ],
+   "size_m": {
+    "x": 0.588,
+    "y": 1.642,
+    "z": 0.354
+   },
+   "sog_bytes": 6054446,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00055",
+   "run": "helical-joined_00055-20261005-132736-d97c32",
+   "prompt": "a man in his sixties with a bald head, a full grey beard, and a stocky build, wearing a white collared shirt under a dark grey waistcoat with four buttons, and a green and blue tartan kilt with a silver-buckled sporran hanging at the front, black leather lace-up boots with dark green knee-high socks, standing upright with hands on hips, soft, even, low-contrast studio lighting.",
+   "gaussians": 256016,
+   "centre_m": [
+    0.0088,
+    -0.0242,
+    -2.2367
+   ],
+   "size_m": {
+    "x": 0.816,
+    "y": 1.593,
+    "z": 0.454
+   },
+   "sog_bytes": 6383465,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00014",
+   "run": "helical-joined_00014-20261005-132732-8cdebd",
+   "prompt": "a woman in her twenties with dark hair pulled back, medium build, light brown skin, wearing a lavender lace bra with thin straps and a matching thong with a lace pattern, and sheer lavender tights, barefoot with no socks or shoes, standing upright with the arms at the sides and the weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 159783,
+   "centre_m": [
+    -0.0333,
+    0.0629,
+    -2.1774
+   ],
+   "size_m": {
+    "x": 0.486,
+    "y": 1.657,
+    "z": 0.356
+   },
+   "sog_bytes": 4946307,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00038",
+   "run": "helical-joined_00038-20261005-132735-1b96ee",
+   "prompt": "a woman in her twenties with long dark braided hair, medium build, light brown skin, wearing a black leather bodysuit with a gold S-shield emblem on the chest, a black cape, and a gold belt with a diamond buckle, black leather knee-high boots with a high heel, standing with one hand on the hip and the other at the side, soft, even, low-contrast studio lighting.",
+   "gaussians": 287661,
+   "centre_m": [
+    0.0092,
+    0.0351,
+    -2.4758
+   ],
+   "size_m": {
+    "x": 0.622,
+    "y": 1.626,
+    "z": 0.537
+   },
+   "sog_bytes": 6547192,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00058",
+   "run": "helical-joined_00058-20261005-132736-ac176a",
+   "prompt": "a man in his forties with dark hair, a mustache, and a turban, medium build, medium-dark skin, wearing a cream-colored kurta with gold floral embroidery, a mandarin collar, a front placket with buttons, and a pocket on the left chest, paired with cream-colored trousers, wearing cream-colored traditional shoes with gold accents, standing with the weight on one leg and the other leg lifted, arms slightly bent at the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 334206,
+   "centre_m": [
+    0.0095,
+    -0.0267,
+    -2.4462
+   ],
+   "size_m": {
+    "x": 0.63,
+    "y": 1.597,
+    "z": 0.81
+   },
+   "sog_bytes": 7470527,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00045",
+   "run": "helical-joined_00045-20261005-132735-58ec77",
+   "prompt": "a man in his forties with a bald head, a grey beard, and a muscular build, wearing a red sleeveless wrestling singlet with a deep V-neck and a fitted hem at the thighs, wearing brown laced wrestling boots with thick soles and visible wear, standing with arms crossed over the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 207268,
+   "centre_m": [
+    -0.0015,
+    -0.0011,
+    -1.9992
+   ],
+   "size_m": {
+    "x": 0.547,
+    "y": 1.649,
+    "z": 0.416
+   },
+   "sog_bytes": 5737590,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00001",
+   "run": "helical-joined_00001-20261005-132725-c00ded",
+   "prompt": "a woman in her twenties with long wavy blonde hair, medium build, tan skin, wearing a red string bikini with thin straps, a ruched top, and a string bottom with adjustable ties at the hips, barefoot with no socks or shoes, standing with the weight on one leg and the other leg bent at the knee, soft, even, low-contrast studio lighting.",
+   "gaussians": 214417,
+   "centre_m": [
+    -0.0058,
+    -0.035,
+    -2.1023
+   ],
+   "size_m": {
+    "x": 0.427,
+    "y": 1.638,
+    "z": 0.478
+   },
+   "sog_bytes": 5766463,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00027",
+   "run": "helical-joined_00027-20261005-132733-201dc7",
+   "prompt": "a woman in her twenties with short dark hair, fair skin, and a slender build, wearing a strapless burgundy corset dress with cream lace trim and ruffled hem, black patent leather high heels with bow details, squatting with the knees bent and the hands resting on the thighs, soft, even, low-contrast studio lighting.",
+   "gaussians": 332279,
+   "centre_m": [
+    0.0122,
+    0.001,
+    -1.4126
+   ],
+   "size_m": {
+    "x": 0.659,
+    "y": 1.026,
+    "z": 0.543
+   },
+   "sog_bytes": 7386368,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00062",
+   "run": "helical-joined_00062-20261005-132736-10b5c6",
+   "prompt": "a man in his forties with long dark braided hair and a beard, medium build, light brown skin, wearing a brown fire-resistant turnout coat with yellow reflective stripes, a black belt, and brown cargo pants with black knee pads and yellow reflective stripes, wearing black heavy-duty boots with thick soles, standing upright with the weight on both feet and the hands clasped at the front of the torso, soft, even, low-contrast lighting.",
+   "gaussians": 295993,
+   "centre_m": [
+    0.0026,
+    -0.0257,
+    -2.1763
+   ],
+   "size_m": {
+    "x": 0.78,
+    "y": 1.6,
+    "z": 0.515
+   },
+   "sog_bytes": 7002825,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00061",
+   "run": "helical-joined_00061-20261005-132736-142130",
+   "prompt": "a man in his fifties with a dark complexion, short graying beard, and short hair, wearing a plaid long-sleeved shirt under a bright yellow safety vest with reflective gray stripes, and dark brown work pants, wearing dark brown work boots with mud stains, standing with the weight on one leg and one knee slightly bent, hands in pockets, soft, even, low-contrast studio lighting.",
+   "gaussians": 256252,
+   "centre_m": [
+    0.0038,
+    0.0036,
+    -1.9841
+   ],
+   "size_m": {
+    "x": 0.504,
+    "y": 1.686,
+    "z": 0.608
+   },
+   "sog_bytes": 6424513,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00040",
+   "run": "helical-joined_00040-20261005-132735-74dbff",
+   "prompt": "a woman in her twenties with long wavy brown hair, fair skin, and a slender build, wearing a gold and jewel-encrusted bikini with feathered trim, a matching feathered headdress, and jeweled arm cuffs, wearing gold high-heeled sandals, standing upright with the arms bent at the sides and hands resting on the hips, soft, even, low-contrast studio lighting.",
+   "gaussians": 271858,
+   "centre_m": [
+    -0.0177,
+    0.053,
+    -2.3052
+   ],
+   "size_m": {
+    "x": 0.743,
+    "y": 1.926,
+    "z": 0.418
+   },
+   "sog_bytes": 6781082,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00018",
+   "run": "helical-joined_00018-rerun-20261009-091535",
+   "prompt": "a woman in her twenties with long dark braided hair, medium build, light brown skin, wearing a silver sequined halter-neck mini dress with a deep back cut and a hem reaching mid-thigh, silver high-heeled sandals with ankle straps, standing with one hand raised to the back of the head and the weight on one leg, soft, even, low-contrast studio lighting.",
+   "gaussians": 205526,
+   "centre_m": [
+    0.0408,
+    -0.0277,
+    -2.3889
+   ],
+   "size_m": {
+    "x": 0.543,
+    "y": 1.827,
+    "z": 0.447
+   },
+   "sog_bytes": 5597459,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00073",
+   "run": "helical-joined_00073-20261005-132737-2c4114",
+   "prompt": "a woman in her thirties with long silver hair, athletic build, tan skin, wearing a dark purple sports bra with a pink Nike logo and black shorts with a high waist and side pockets, wearing black athletic sneakers with white soles and black laces, standing with the hands on the hips and the feet apart, soft, even, low-contrast studio lighting.",
+   "gaussians": 224078,
+   "centre_m": [
+    -0.0019,
+    0.0127,
+    -1.9161
+   ],
+   "size_m": {
+    "x": 0.676,
+    "y": 1.632,
+    "z": 0.355
+   },
+   "sog_bytes": 5763157,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00059",
+   "run": "helical-joined_00059-20261005-132736-63ac54",
+   "prompt": "a man in his sixties with short grey hair, a weathered face, and a medium build, wearing a blue denim shirt with rolled-up sleeves and two chest pockets, paired with brown leather chaps with fringes and a brown belt with a large buckle, brown leather cowboy boots with a pointed toe and a low heel, standing with one hand on the hip and the other hanging at the side, weight on one leg, soft, even, low-contrast studio lighting.",
+   "gaussians": 265915,
+   "centre_m": [
+    -0.0351,
+    0.003,
+    -2.3926
+   ],
+   "size_m": {
+    "x": 0.687,
+    "y": 1.647,
+    "z": 0.461
+   },
+   "sog_bytes": 6591502,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00057",
+   "run": "helical-joined_00057-20261005-132736-71e93b",
+   "prompt": "a man in his fifties with a dark mustache and short dark hair, wearing a white, long-sleeved, button-up thobe with a pocket on the left chest and a collar, and a red and white checkered keffiyeh draped over his head, wearing black leather loafers with no socks, standing upright with the arms at the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 230694,
+   "centre_m": [
+    0.0158,
+    -0.0025,
+    -2.2063
+   ],
+   "size_m": {
+    "x": 0.539,
+    "y": 1.712,
+    "z": 0.365
+   },
+   "sog_bytes": 5854056,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00054",
+   "run": "helical-joined_00054-20261005-132736-f29863",
+   "prompt": "a man in his thirties with short dark hair and a beard, medium build, olive skin tone, wearing a faded grey oversized hoodie with drawstrings and a front pocket, and olive green cargo pants with large pockets on the thighs, wearing grey athletic sneakers with laces, no socks visible, standing upright with hands in the front pockets, soft, even, low-contrast studio lighting.",
+   "gaussians": 251071,
+   "centre_m": [
+    0.0046,
+    -0.0238,
+    -2.2584
+   ],
+   "size_m": {
+    "x": 0.592,
+    "y": 1.654,
+    "z": 0.361
+   },
+   "sog_bytes": 6013171,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00074",
+   "run": "helical-joined_00074-20261005-132738-ddcef9",
+   "prompt": "a woman in her thirties with short grey hair, medium build, light brown skin, wearing a grey sleeveless fitted tank top with a rounded neckline and a matching pair of grey form-fitting leggings with a high waist and a smooth hem, barefoot with no socks or shoes, standing upright with the weight on one leg and the other leg slightly bent at the knee, soft, even, low-contrast studio lighting.",
+   "gaussians": 213760,
+   "centre_m": [
+    0.0144,
+    -0.0088,
+    -2.1897
+   ],
+   "size_m": {
+    "x": 0.416,
+    "y": 1.786,
+    "z": 0.66
+   },
+   "sog_bytes": 5643367,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00052",
+   "run": "helical-joined_00052-20261005-132736-a0fe86",
+   "prompt": "a man in his thirties with short dark hair and a beard, medium build, light skin tone, wearing a white double-breasted chef's jacket with silver buttons and rolled-up sleeves, and grey checkered trousers, black leather dress shoes with no socks, standing upright with the arms at the sides and the head tilted upward, soft, even, low-contrast studio lighting.",
+   "gaussians": 240783,
+   "centre_m": [
+    0.0122,
+    0.0178,
+    -2.3129
+   ],
+   "size_m": {
+    "x": 0.534,
+    "y": 1.834,
+    "z": 0.363
+   },
+   "sog_bytes": 5786673,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00012",
+   "run": "helical-joined_00012-20261005-132732-d49176",
+   "prompt": "a woman in her twenties with curly dark hair, medium build, light brown skin, wearing a dark green satin camisole with thin straps and a V-neck, paired with matching satin shorts with a straight hem, barefoot with no socks or shoes, standing with the weight on one leg and the other leg extended, arms hanging at the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 220081,
+   "centre_m": [
+    -0.0188,
+    0.0136,
+    -2.3041
+   ],
+   "size_m": {
+    "x": 0.499,
+    "y": 1.652,
+    "z": 0.813
+   },
+   "sog_bytes": 5882842,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00060",
+   "run": "helical-joined_00060-20261005-132736-077223",
+   "prompt": "a man in his sixties with short grey hair, a neutral expression, and a medium build, wearing a dark blue traditional Korean hanbok with a white inner collar and a tied sash at the waist, wearing dark blue traditional Korean geta with white socks, sitting on a cube with the hands clasped at the front of the thighs, soft, even, low-contrast studio lighting.",
+   "gaussians": 315129,
+   "centre_m": [
+    0.0025,
+    -0.0028,
+    -1.9916
+   ],
+   "size_m": {
+    "x": 0.583,
+    "y": 1.282,
+    "z": 0.712
+   },
+   "sog_bytes": 7026625,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00019",
+   "run": "helical-joined_00019-20261005-132733-2b3b8e",
+   "prompt": "a woman in her twenties with dark hair in two buns, medium build, light brown skin, wearing a black sheer long-sleeved top with a high neck over a black bra, and a black leather mini skirt with a high waist and belt loops, black high-heeled ankle-strap sandals with thin straps, standing with one leg lifted and the heel resting on the other foot, soft, even, low-contrast studio lighting.",
+   "gaussians": 192287,
+   "centre_m": [
+    -0.0158,
+    -0.0612,
+    -2.0888
+   ],
+   "size_m": {
+    "x": 0.515,
+    "y": 1.712,
+    "z": 0.364
+   },
+   "sog_bytes": 5375479,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00006",
+   "run": "helical-joined_00006-20261005-132732-e197ec",
+   "prompt": "a woman in her twenties with shoulder-length pink hair, fair skin, and a slim build, wearing a navy blue one-piece swimsuit with white trim along the neckline, armholes, and seams, featuring a scoop neck and a fitted cut, barefoot with no socks or shoes, standing upright with the hands on the hips and the feet apart, soft, even, low-contrast studio lighting.",
+   "gaussians": 193997,
+   "centre_m": [
+    0.0058,
+    -0.0075,
+    -1.9912
+   ],
+   "size_m": {
+    "x": 0.69,
+    "y": 1.609,
+    "z": 0.346
+   },
+   "sog_bytes": 5434943,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00024",
+   "run": "helical-joined_00024-20261005-132733-4d23d2",
+   "prompt": "a woman in her twenties with dark skin, long straight black hair, and a headband, wearing a black-and-white striped halter top bikini with a central clasp and matching high-waisted bottoms with a straight hem, wearing tan strappy high-heeled sandals with ankle ties, standing with the arms akimbo and the weight on both feet, soft, even, low-contrast studio lighting.",
+   "gaussians": 202434,
+   "centre_m": [
+    0.0482,
+    0.0366,
+    -2.154
+   ],
+   "size_m": {
+    "x": 0.683,
+    "y": 1.615,
+    "z": 0.425
+   },
+   "sog_bytes": 5553569,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00032",
+   "run": "helical-joined_00032-20261005-132734-30ff5b",
+   "prompt": "a woman in her twenties with curly dark hair, medium build, light brown skin, wearing a white cropped sailor-style top with navy blue trim and a navy blue necktie, paired with navy blue shorts, wearing black high-heeled pumps, standing upright with the arms at the sides, soft, even, low-contrast studio lighting.",
+   "gaussians": 208113,
+   "centre_m": [
+    -0.015,
+    -0.023,
+    -2.176
+   ],
+   "size_m": {
+    "x": 0.519,
+    "y": 1.669,
+    "z": 0.346
+   },
+   "sog_bytes": 5678691,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  },
+  {
+   "id": "00033",
+   "run": "helical-joined_00033-20261005-132734-63df27",
+   "prompt": "a woman in her twenties with short dark hair, medium build, light brown skin, wearing a black leather cropped jacket with silver zippers and snap buttons, open over a black lace bralette, and high-waisted black leather pants with belt loops and a button closure, black leather knee-high boots with a pointed toe and a low heel, kneeling with the knees bent and the hips lowered, the hands resting on the thighs, soft, even, low-contrast studio lighting with faint shadows.",
+   "gaussians": 302325,
+   "centre_m": [
+    -0.0298,
+    -0.0635,
+    -1.8323
+   ],
+   "size_m": {
+    "x": 0.593,
+    "y": 1.276,
+    "z": 0.538
+   },
+   "sog_bytes": 6822321,
+   "input": {
+    "w": 1400,
+    "h": 1245
+   }
+  }
+ ]
+}

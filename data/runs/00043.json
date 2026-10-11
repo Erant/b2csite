@@ -1,0 +1,21 @@
+{
+  "id": "00043",
+  "run": "helical-joined_00043-20261005-132735-dcd82f",
+  "prompt": "a man in his forties with dark curly hair, a beard, a muscular build, and a tan skin tone, wearing grey heathered cotton briefs with a plain elastic waistband, barefoot with no socks or shoes, standing upright with the weight on one leg and the other leg slightly bent, soft, even, low-contrast studio lighting.",
+  "gaussians": 209402,
+  "centre_m": [
+    0.0237,
+    0.0087,
+    -2.2465
+  ],
+  "size_m": {
+    "x": 0.46,
+    "y": 1.748,
+    "z": 0.634
+  },
+  "sog_bytes": 5592177,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

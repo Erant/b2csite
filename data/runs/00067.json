@@ -1,0 +1,21 @@
+{
+  "id": "00067",
+  "run": "helical-joined_00067-20261005-132737-92f55e",
+  "prompt": "a man in his sixties with a mustache, short dark hair, and a weathered complexion, wearing a white beekeeper suit, wearing a white cotton beekeeper suit with a hood, a zipper down the front, and a collar, with a dark blue shirt visible at the neck, wearing black leather work boots with thick soles and no socks, standing upright with the hands clasped at the front of the torso, soft, even, low-contrast studio lighting.",
+  "gaussians": 275814,
+  "centre_m": [
+    -0.0394,
+    0.0052,
+    -2.0648
+  ],
+  "size_m": {
+    "x": 0.541,
+    "y": 1.698,
+    "z": 0.514
+  },
+  "sog_bytes": 6277888,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00023",
+  "run": "helical-joined_00023-20261005-132733-0e7ce8",
+  "prompt": "a woman in her twenties with short black hair, dark skin, and a slim build, wearing a dark grey crop sports bra with a scoop neck and high-waisted leggings that end at the mid-calf, barefoot with no socks or shoes, standing with the arms slightly bent and relaxed at the sides, the feet parallel and weight evenly distributed, soft, even, low-contrast lighting.",
+  "gaussians": 177638,
+  "centre_m": [
+    0.0919,
+    0.0367,
+    -2.2673
+  ],
+  "size_m": {
+    "x": 0.92,
+    "y": 1.735,
+    "z": 0.588
+  },
+  "sog_bytes": 5136391,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

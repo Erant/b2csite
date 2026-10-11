@@ -1,0 +1,21 @@
+{
+  "id": "00059",
+  "run": "helical-joined_00059-20261005-132736-63ac54",
+  "prompt": "a man in his sixties with short grey hair, a weathered face, and a medium build, wearing a blue denim shirt with rolled-up sleeves and two chest pockets, paired with brown leather chaps with fringes and a brown belt with a large buckle, brown leather cowboy boots with a pointed toe and a low heel, standing with one hand on the hip and the other hanging at the side, weight on one leg, soft, even, low-contrast studio lighting.",
+  "gaussians": 265915,
+  "centre_m": [
+    -0.0351,
+    0.003,
+    -2.3926
+  ],
+  "size_m": {
+    "x": 0.687,
+    "y": 1.647,
+    "z": 0.461
+  },
+  "sog_bytes": 6591502,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

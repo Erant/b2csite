@@ -1,0 +1,21 @@
+{
+  "id": "00046",
+  "run": "helical-joined_00046-20261005-132735-ee317d",
+  "prompt": "a man in his thirties with short dark hair, a beard, and a muscular build, medium skin tone, wearing a sleeveless athletic tank top with a green and black camouflage pattern, featuring a white crescent moon and star emblem on the chest, and black athletic shorts with a white Nike swoosh on the left thigh, wearing black and grey athletic sneakers with white soles and white socks, standing upright with arms raised and hands clasped above the head, soft, even, low-contrast studio lighting.",
+  "gaussians": 185372,
+  "centre_m": [
+    -0.0292,
+    0.05,
+    -2.2049
+  ],
+  "size_m": {
+    "x": 0.592,
+    "y": 2.074,
+    "z": 0.443
+  },
+  "sog_bytes": 5210013,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

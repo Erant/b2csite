@@ -1,0 +1,21 @@
+{
+  "id": "00045",
+  "run": "helical-joined_00045-20261005-132735-58ec77",
+  "prompt": "a man in his forties with a bald head, a grey beard, and a muscular build, wearing a red sleeveless wrestling singlet with a deep V-neck and a fitted hem at the thighs, wearing brown laced wrestling boots with thick soles and visible wear, standing with arms crossed over the chest and weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 207268,
+  "centre_m": [
+    -0.0015,
+    -0.0011,
+    -1.9992
+  ],
+  "size_m": {
+    "x": 0.547,
+    "y": 1.649,
+    "z": 0.416
+  },
+  "sog_bytes": 5737590,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

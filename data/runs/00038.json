@@ -1,0 +1,21 @@
+{
+  "id": "00038",
+  "run": "helical-joined_00038-20261005-132735-1b96ee",
+  "prompt": "a woman in her twenties with long dark braided hair, medium build, light brown skin, wearing a black leather bodysuit with a gold S-shield emblem on the chest, a black cape, and a gold belt with a diamond buckle, black leather knee-high boots with a high heel, standing with one hand on the hip and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 287661,
+  "centre_m": [
+    0.0092,
+    0.0351,
+    -2.4758
+  ],
+  "size_m": {
+    "x": 0.622,
+    "y": 1.626,
+    "z": 0.537
+  },
+  "sog_bytes": 6547192,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

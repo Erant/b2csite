@@ -1,0 +1,21 @@
+{
+  "id": "00018",
+  "run": "helical-joined_00018-rerun-20261009-091535",
+  "prompt": "a woman in her twenties with long dark braided hair, medium build, light brown skin, wearing a silver sequined halter-neck mini dress with a deep back cut and a hem reaching mid-thigh, silver high-heeled sandals with ankle straps, standing with one hand raised to the back of the head and the weight on one leg, soft, even, low-contrast studio lighting.",
+  "gaussians": 205526,
+  "centre_m": [
+    0.0408,
+    -0.0277,
+    -2.3889
+  ],
+  "size_m": {
+    "x": 0.543,
+    "y": 1.827,
+    "z": 0.447
+  },
+  "sog_bytes": 5597459,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

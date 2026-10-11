@@ -1,0 +1,21 @@
+{
+  "id": "00071",
+  "run": "helical-joined_00071-20261005-132737-6e42cd",
+  "prompt": "a woman in her fifties with dark hair in a long braid, medium build, medium brown skin, wearing a black sleeveless tank top with a scoop neck, paired with a black sheer wrap skirt with a high slit and a gathered waist tie, barefoot, standing upright with the arms at the sides and the weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 192055,
+  "centre_m": [
+    0.0016,
+    0.0049,
+    -2.0655
+  ],
+  "size_m": {
+    "x": 0.552,
+    "y": 1.594,
+    "z": 0.353
+  },
+  "sog_bytes": 5399496,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

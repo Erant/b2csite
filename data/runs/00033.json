@@ -1,0 +1,21 @@
+{
+  "id": "00033",
+  "run": "helical-joined_00033-20261005-132734-63df27",
+  "prompt": "a woman in her twenties with short dark hair, medium build, light brown skin, wearing a black leather cropped jacket with silver zippers and snap buttons, open over a black lace bralette, and high-waisted black leather pants with belt loops and a button closure, black leather knee-high boots with a pointed toe and a low heel, kneeling with the knees bent and the hips lowered, the hands resting on the thighs, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 302325,
+  "centre_m": [
+    -0.0298,
+    -0.0635,
+    -1.8323
+  ],
+  "size_m": {
+    "x": 0.593,
+    "y": 1.276,
+    "z": 0.538
+  },
+  "sog_bytes": 6822321,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

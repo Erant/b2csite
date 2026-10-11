@@ -1,0 +1,21 @@
+{
+  "id": "00032",
+  "run": "helical-joined_00032-20261005-132734-30ff5b",
+  "prompt": "a woman in her twenties with curly dark hair, medium build, light brown skin, wearing a white cropped sailor-style top with navy blue trim and a navy blue necktie, paired with navy blue shorts, wearing black high-heeled pumps, standing upright with the arms at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 208113,
+  "centre_m": [
+    -0.015,
+    -0.023,
+    -2.176
+  ],
+  "size_m": {
+    "x": 0.519,
+    "y": 1.669,
+    "z": 0.346
+  },
+  "sog_bytes": 5678691,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

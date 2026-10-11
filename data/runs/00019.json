@@ -1,0 +1,21 @@
+{
+  "id": "00019",
+  "run": "helical-joined_00019-20261005-132733-2b3b8e",
+  "prompt": "a woman in her twenties with dark hair in two buns, medium build, light brown skin, wearing a black sheer long-sleeved top with a high neck over a black bra, and a black leather mini skirt with a high waist and belt loops, black high-heeled ankle-strap sandals with thin straps, standing with one leg lifted and the heel resting on the other foot, soft, even, low-contrast studio lighting.",
+  "gaussians": 192287,
+  "centre_m": [
+    -0.0158,
+    -0.0612,
+    -2.0888
+  ],
+  "size_m": {
+    "x": 0.515,
+    "y": 1.712,
+    "z": 0.364
+  },
+  "sog_bytes": 5375479,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

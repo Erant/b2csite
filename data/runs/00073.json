@@ -1,0 +1,21 @@
+{
+  "id": "00073",
+  "run": "helical-joined_00073-20261005-132737-2c4114",
+  "prompt": "a woman in her thirties with long silver hair, athletic build, tan skin, wearing a dark purple sports bra with a pink Nike logo and black shorts with a high waist and side pockets, wearing black athletic sneakers with white soles and black laces, standing with the hands on the hips and the feet apart, soft, even, low-contrast studio lighting.",
+  "gaussians": 224078,
+  "centre_m": [
+    -0.0019,
+    0.0127,
+    -1.9161
+  ],
+  "size_m": {
+    "x": 0.676,
+    "y": 1.632,
+    "z": 0.355
+  },
+  "sog_bytes": 5763157,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

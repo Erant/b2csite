@@ -1,0 +1,21 @@
+{
+  "id": "00030",
+  "run": "helical-joined_00030-20261005-132734-8684f4",
+  "prompt": "a woman in her twenties with long wavy reddish-brown hair, fair skin, and a slender build, wearing a beige feathered bodysuit with silver and turquoise embellishments, a plunging neckline, and a feathered hemline, wearing beige strappy high-heeled sandals, standing with the weight on one leg and the other leg extended, the arms at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 266943,
+  "centre_m": [
+    0.0557,
+    0.0406,
+    -2.6775
+  ],
+  "size_m": {
+    "x": 0.492,
+    "y": 1.934,
+    "z": 0.594
+  },
+  "sog_bytes": 6543848,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

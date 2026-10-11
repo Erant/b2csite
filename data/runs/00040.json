@@ -1,0 +1,21 @@
+{
+  "id": "00040",
+  "run": "helical-joined_00040-20261005-132735-74dbff",
+  "prompt": "a woman in her twenties with long wavy brown hair, fair skin, and a slender build, wearing a gold and jewel-encrusted bikini with feathered trim, a matching feathered headdress, and jeweled arm cuffs, wearing gold high-heeled sandals, standing upright with the arms bent at the sides and hands resting on the hips, soft, even, low-contrast studio lighting.",
+  "gaussians": 271858,
+  "centre_m": [
+    -0.0177,
+    0.053,
+    -2.3052
+  ],
+  "size_m": {
+    "x": 0.743,
+    "y": 1.926,
+    "z": 0.418
+  },
+  "sog_bytes": 6781082,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

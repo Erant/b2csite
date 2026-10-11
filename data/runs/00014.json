@@ -1,0 +1,21 @@
+{
+  "id": "00014",
+  "run": "helical-joined_00014-20261005-132732-8cdebd",
+  "prompt": "a woman in her twenties with dark hair pulled back, medium build, light brown skin, wearing a lavender lace bra with thin straps and a matching thong with a lace pattern, and sheer lavender tights, barefoot with no socks or shoes, standing upright with the arms at the sides and the weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 159783,
+  "centre_m": [
+    -0.0333,
+    0.0629,
+    -2.1774
+  ],
+  "size_m": {
+    "x": 0.486,
+    "y": 1.657,
+    "z": 0.356
+  },
+  "sog_bytes": 4946307,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00062",
+  "run": "helical-joined_00062-20261005-132736-10b5c6",
+  "prompt": "a man in his forties with long dark braided hair and a beard, medium build, light brown skin, wearing a brown fire-resistant turnout coat with yellow reflective stripes, a black belt, and brown cargo pants with black knee pads and yellow reflective stripes, wearing black heavy-duty boots with thick soles, standing upright with the weight on both feet and the hands clasped at the front of the torso, soft, even, low-contrast lighting.",
+  "gaussians": 295993,
+  "centre_m": [
+    0.0026,
+    -0.0257,
+    -2.1763
+  ],
+  "size_m": {
+    "x": 0.78,
+    "y": 1.6,
+    "z": 0.515
+  },
+  "sog_bytes": 7002825,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

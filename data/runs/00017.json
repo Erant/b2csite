@@ -1,0 +1,21 @@
+{
+  "id": "00017",
+  "run": "helical-joined_00017-20261005-132733-12d5fb",
+  "prompt": "a woman in her twenties with short dark hair, fair skin, and a slender build, wearing a beige crocheted crop top with tie-front straps and a beige high-waisted mini skirt with a front pocket, wearing beige platform sandals with a flat sole and a thong strap, standing with the weight on one leg and one knee slightly bent, soft, even, low-contrast studio lighting.",
+  "gaussians": 196567,
+  "centre_m": [
+    -0.0146,
+    0.0248,
+    -2.0644
+  ],
+  "size_m": {
+    "x": 0.32,
+    "y": 1.668,
+    "z": 0.487
+  },
+  "sog_bytes": 5459644,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

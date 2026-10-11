@@ -1,0 +1,21 @@
+{
+  "id": "00020",
+  "run": "helical-joined_00020-20261005-132733-38412f",
+  "prompt": "a woman in her twenties with long wavy reddish-brown hair, fair skin, and a slender build, wearing an unbuttoned oversized white cotton shirt over a black bra and black shorts, barefoot with no socks or shoes, standing with the weight on one leg and the other leg slightly bent, one hand on the hip, the other arm hanging at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 194775,
+  "centre_m": [
+    0.0644,
+    0.0315,
+    -1.9902
+  ],
+  "size_m": {
+    "x": 0.568,
+    "y": 1.602,
+    "z": 0.532
+  },
+  "sog_bytes": 5360416,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

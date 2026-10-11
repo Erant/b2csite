@@ -1,0 +1,21 @@
+{
+  "id": "00006",
+  "run": "helical-joined_00006-20261005-132732-e197ec",
+  "prompt": "a woman in her twenties with shoulder-length pink hair, fair skin, and a slim build, wearing a navy blue one-piece swimsuit with white trim along the neckline, armholes, and seams, featuring a scoop neck and a fitted cut, barefoot with no socks or shoes, standing upright with the hands on the hips and the feet apart, soft, even, low-contrast studio lighting.",
+  "gaussians": 193997,
+  "centre_m": [
+    0.0058,
+    -0.0075,
+    -1.9912
+  ],
+  "size_m": {
+    "x": 0.69,
+    "y": 1.609,
+    "z": 0.346
+  },
+  "sog_bytes": 5434943,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

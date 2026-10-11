@@ -1,0 +1,21 @@
+{
+  "id": "00056",
+  "run": "helical-joined_00056-20261005-132736-45d1fe",
+  "prompt": "a man in his sixties with short dark hair and a mustache, medium build, dark brown skin tone, wearing a cream-colored embroidered robe with long sleeves and a V-neck, over a white shirt, with a matching cream-colored cap, black leather loafers with no socks, standing with one arm raised in a wave and the other hand at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 338183,
+  "centre_m": [
+    -0.0139,
+    -0.0965,
+    -2.2447
+  ],
+  "size_m": {
+    "x": 0.645,
+    "y": 1.678,
+    "z": 0.731
+  },
+  "sog_bytes": 7320673,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

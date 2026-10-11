@@ -1,0 +1,21 @@
+{
+  "id": "00005",
+  "run": "helical-joined_00005-20261005-132732-b5e749",
+  "prompt": "a woman in her twenties with long black hair, medium build, tan skin, wearing a metallic gold bikini with thin straps, a triangle top with a central tie, and a matching bottom with side ties, barefoot, standing with the feet apart and the weight on one leg, soft, even, low-contrast studio lighting.",
+  "gaussians": 196030,
+  "centre_m": [
+    0.0034,
+    0.0217,
+    -2.3053
+  ],
+  "size_m": {
+    "x": 0.846,
+    "y": 1.69,
+    "z": 0.627
+  },
+  "sog_bytes": 5465981,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

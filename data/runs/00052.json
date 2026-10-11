@@ -1,0 +1,21 @@
+{
+  "id": "00052",
+  "run": "helical-joined_00052-20261005-132736-a0fe86",
+  "prompt": "a man in his thirties with short dark hair and a beard, medium build, light skin tone, wearing a white double-breasted chef's jacket with silver buttons and rolled-up sleeves, and grey checkered trousers, black leather dress shoes with no socks, standing upright with the arms at the sides and the head tilted upward, soft, even, low-contrast studio lighting.",
+  "gaussians": 240783,
+  "centre_m": [
+    0.0122,
+    0.0178,
+    -2.3129
+  ],
+  "size_m": {
+    "x": 0.534,
+    "y": 1.834,
+    "z": 0.363
+  },
+  "sog_bytes": 5786673,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

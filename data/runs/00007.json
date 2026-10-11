@@ -1,0 +1,21 @@
+{
+  "id": "00007",
+  "run": "helical-joined_00007-20261005-132732-fc73d1",
+  "prompt": "a woman in her twenties with blonde shoulder-length hair, fair skin, and a slim build, wearing a bright green ribbed bikini top with thin straps and a matching bikini bottom with a ribbed texture, white slide-on sandals with a flat sole and no heel, sitting on a grey block with one leg bent and the other extended, hands resting on the knee, soft, even, low-contrast studio lighting.",
+  "gaussians": 274166,
+  "centre_m": [
+    0.01,
+    0.0305,
+    -2.117
+  ],
+  "size_m": {
+    "x": 0.416,
+    "y": 1.423,
+    "z": 0.834
+  },
+  "sog_bytes": 6665663,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

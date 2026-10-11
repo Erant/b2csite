@@ -1,0 +1,21 @@
+{
+  "id": "00034",
+  "run": "helical-joined_00034-20261005-132734-299cc1",
+  "prompt": "a woman in her thirties with long brown hair in a ponytail, fair skin, and a slender build, wearing a deep red velvet gown with thin spaghetti straps, a plunging neckline, a high slit on the left thigh, and black lace elbow-length gloves, black satin high-heeled pumps with pointed toes, standing with the weight on one leg and one knee slightly bent, head tilted back with eyes closed, soft, even, low-contrast studio lighting.",
+  "gaussians": 197553,
+  "centre_m": [
+    -0.0244,
+    0.0125,
+    -2.2809
+  ],
+  "size_m": {
+    "x": 0.507,
+    "y": 1.669,
+    "z": 0.542
+  },
+  "sog_bytes": 5667905,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}
