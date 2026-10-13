@@ -183,6 +183,14 @@ a { color: inherit; }
 }
 .download:hover { border-color: var(--accent); color: var(--accent); }
 
+.license {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--faint);
+}
+.license a { color: var(--muted); }
+
 /* how it works */
 .how { padding: clamp(64px, 10vw, 120px) var(--gutter) 0; }
 .how h2, .gallery h2 {

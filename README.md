@@ -50,6 +50,13 @@ python3 -m http.server 8000           # then http://localhost:8000/
 
 The page needs to be served over HTTP: `fetch` does not work from `file://`.
 
+## License
+
+The splats, thumbnails, reference sheets and prompts (`splats/`, `thumbs/`, `inputs/`,
+`data/`) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
+see `LICENSE-media.md`. The people they show are synthetic, and the page says so
+next to every download.
+
 ## Publishing
 
 Push to a GitHub repo, then turn on Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
