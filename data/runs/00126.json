@@ -1,0 +1,21 @@
+{
+  "id": "00126",
+  "run": "helical-joined_00052-20261012-012607-0a5566",
+  "prompt": "a man in his fifties with a white beard and short dark hair, wearing a camouflage uniform, a tactical vest, a helmet with a mounted device, and a backpack, brown combat boots with no visible socks, crouched low with the weight on one leg and the other knee bent, soft, even studio lighting.",
+  "gaussians": 265535,
+  "centre_m": [
+    0.0476,
+    -0.1147,
+    -2.2722
+  ],
+  "size_m": {
+    "x": 0.685,
+    "y": 1.194,
+    "z": 0.625
+  },
+  "sog_bytes": 6608443,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

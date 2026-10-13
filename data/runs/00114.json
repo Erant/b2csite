@@ -1,0 +1,21 @@
+{
+  "id": "00114",
+  "run": "helical-joined_00040-20261012-012607-bd087f",
+  "prompt": "a man in his sixties with short grey hair, fair skin, wearing a tuxedo, wearing a black tuxedo jacket with satin lapels, a grey waistcoat with black buttons, a white dress shirt, and a black bow tie, wearing black leather dress shoes with black socks, sitting cross-legged with the hands resting on the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 235142,
+  "centre_m": [
+    0.0092,
+    -0.0034,
+    -1.67
+  ],
+  "size_m": {
+    "x": 0.634,
+    "y": 0.899,
+    "z": 0.583
+  },
+  "sog_bytes": 5981373,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

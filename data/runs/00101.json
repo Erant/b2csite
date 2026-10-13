@@ -1,0 +1,21 @@
+{
+  "id": "00101",
+  "run": "helical-joined_00027-20261012-012606-aaac83",
+  "prompt": "a man in his fifties with short dark hair and a mustache, medium build, dark brown skin, wearing a navy blue short-sleeved polo shirt with a collar and a ribbed hem, and beige straight-leg trousers with a flat front and belt loops, wearing brown suede loafers with a single strap and a buckle, and no socks, standing upright with the arms raised to grip the collar of the shirt, soft, even, low-contrast studio lighting.",
+  "gaussians": 220544,
+  "centre_m": [
+    -0.0052,
+    -0.0142,
+    -2.0937
+  ],
+  "size_m": {
+    "x": 0.586,
+    "y": 1.665,
+    "z": 0.441
+  },
+  "sog_bytes": 5800229,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

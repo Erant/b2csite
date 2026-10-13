@@ -1,0 +1,21 @@
+{
+  "id": "00141",
+  "run": "helical-joined_00067-20261012-012609-a377a2",
+  "prompt": "a woman in her sixties with short curly grey hair, medium build, light brown skin, wearing a light blue woolen two-button blazer with flap pockets and a matching pair of straight-leg trousers, wearing blue suede loafers with gold buckles and no socks, standing with the arms raised and hands clasped at the back of the head, soft, even, low-contrast studio lighting.",
+  "gaussians": 280744,
+  "centre_m": [
+    0.0059,
+    -0.0117,
+    -1.8505
+  ],
+  "size_m": {
+    "x": 0.661,
+    "y": 1.654,
+    "z": 0.381
+  },
+  "sog_bytes": 6577495,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

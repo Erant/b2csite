@@ -1,0 +1,21 @@
+{
+  "id": "00140",
+  "run": "helical-joined_00066-20261012-012609-62c9d0",
+  "prompt": "a woman in her seventies with curly grey hair, fair skin, wearing a white button-up shirt with rolled sleeves, wearing a black fitted pencil skirt with a smooth hemline, the shirt tucked in, with a collar and visible buttons, wearing black patent leather high heels with a pointed toe and thin heel, no socks visible, bent at the hips with hands resting on the thighs, standing upright with weight on both feet, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 207868,
+  "centre_m": [
+    0.024,
+    -0.0729,
+    -1.9116
+  ],
+  "size_m": {
+    "x": 0.461,
+    "y": 1.448,
+    "z": 0.667
+  },
+  "sog_bytes": 5579201,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

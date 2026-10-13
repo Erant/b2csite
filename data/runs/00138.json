@@ -1,0 +1,21 @@
+{
+  "id": "00138",
+  "run": "helical-joined_00064-20261012-012609-23a18c",
+  "prompt": "a woman in her forties with shoulder-length dark brown hair, fair skin, wearing a pearl necklace, wearing a black sleeveless dress with a V-neckline, the hem reaching the knees, wearing black high-heeled pumps with a pointed toe and a glossy finish, standing upright with the weight evenly distributed, the left hand near the collarbone, soft, even, low-contrast lighting.",
+  "gaussians": 176797,
+  "centre_m": [
+    0.0112,
+    -0.0065,
+    -2.0151
+  ],
+  "size_m": {
+    "x": 0.457,
+    "y": 1.631,
+    "z": 0.414
+  },
+  "sog_bytes": 5210667,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

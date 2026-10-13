@@ -1,0 +1,21 @@
+{
+  "id": "00085",
+  "run": "helical-joined_00011-20261012-012605-7c4dfc",
+  "prompt": "a woman in her twenties with long brown hair, fair skin, and a slim build, wearing a neon yellow bikini top under a white mesh crop top with short sleeves and frayed denim shorts, barefoot with no socks or shoes, standing with one leg slightly bent and the other leg extended, the arms at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 211360,
+  "centre_m": [
+    -0.0329,
+    0.0094,
+    -2.1222
+  ],
+  "size_m": {
+    "x": 0.565,
+    "y": 1.641,
+    "z": 0.582
+  },
+  "sog_bytes": 5779831,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

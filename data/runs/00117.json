@@ -1,0 +1,21 @@
+{
+  "id": "00117",
+  "run": "helical-joined_00043-20261012-012607-c09324",
+  "prompt": "a man in his twenties with dark curly hair and a beard, medium build, dark skin tone, wearing a white textured fencing jacket with a high collar and long sleeves, white fencing pants with a gathered hem, and white ribbed socks, wearing white athletic shoes with blue stripes and white laces, standing with one foot on a pedestal and the other foot on the floor, holding a fencing mask under the left arm, soft, even, low-contrast studio lighting with defined shadows.",
+  "gaussians": 246147,
+  "centre_m": [
+    -0.0529,
+    0.0646,
+    -2.1524
+  ],
+  "size_m": {
+    "x": 0.655,
+    "y": 1.723,
+    "z": 0.596
+  },
+  "sog_bytes": 6008159,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

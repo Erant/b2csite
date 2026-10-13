@@ -1,0 +1,21 @@
+{
+  "id": "00109",
+  "run": "helical-joined_00035-20261012-012606-767943",
+  "prompt": "a man in his forties with short light brown hair and a round face, wearing a white shirt, dark navy trousers, and black shoes, wearing a white long-sleeved shirt with epaulets on the shoulders, two chest pockets with flaps, a black tie, and dark navy trousers with a black belt and gold buckle, black leather oxfords without visible laces, standing upright with the hands clasped at the waist, soft, even, low-contrast lighting.",
+  "gaussians": 232857,
+  "centre_m": [
+    0.0248,
+    -0.0651,
+    -2.2528
+  ],
+  "size_m": {
+    "x": 0.625,
+    "y": 1.649,
+    "z": 0.448
+  },
+  "sog_bytes": 5869373,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

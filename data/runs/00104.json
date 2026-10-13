@@ -1,0 +1,21 @@
+{
+  "id": "00104",
+  "run": "helical-joined_00030-20261012-012606-24b809",
+  "prompt": "a man in his thirties with short salt-and-pepper hair, fair skin, and a neutral expression, wearing a light beige linen suit with a notched lapel, two-button closure, flap pockets on the chest, and a matching button-up shirt with a collar and buttoned cuffs, wearing beige espadrille loafers with flat textured soles and no socks, standing with the legs apart, the left knee straight and the right knee bent, the arms at the sides, soft, even, low-contrast lighting.",
+  "gaussians": 247209,
+  "centre_m": [
+    -0.004,
+    0.0467,
+    -2.3305
+  ],
+  "size_m": {
+    "x": 0.561,
+    "y": 1.611,
+    "z": 0.899
+  },
+  "sog_bytes": 6075865,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

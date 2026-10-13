@@ -1,0 +1,21 @@
+{
+  "id": "00142",
+  "run": "helical-joined_00068-20261012-012609-e11556",
+  "prompt": "a woman in her twenties with dark hair tied in a ponytail, medium build, light brown skin, wearing a brown leather motorcycle jacket with silver snap buttons and zipper, over a beige tank top, and blue denim jeans with frayed hems, brown leather boots with a low heel and visible stitching, worn with no socks, sitting cross-legged with hands resting on the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 229543,
+  "centre_m": [
+    0.0052,
+    -0.0288,
+    -1.5452
+  ],
+  "size_m": {
+    "x": 0.651,
+    "y": 0.894,
+    "z": 0.551
+  },
+  "sog_bytes": 5984104,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

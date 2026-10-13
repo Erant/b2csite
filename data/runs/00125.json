@@ -1,0 +1,21 @@
+{
+  "id": "00125",
+  "run": "helical-joined_00051-20261012-012607-0c53d9",
+  "prompt": "a man in his thirties with long dark hair and a beard, dark skin tone, muscular build, wearing a black football jersey with white stripes on the sleeves, black padded pants with white stripes down the sides, and a black chest protector with silver shoulder pads, wearing black cleats with dark socks and white ankle cuffs, standing with the weight on one leg and one knee bent, holding a helmet in one hand, soft, even, low-contrast studio lighting.",
+  "gaussians": 227244,
+  "centre_m": [
+    0.0848,
+    -0.0119,
+    -2.2749
+  ],
+  "size_m": {
+    "x": 0.708,
+    "y": 1.651,
+    "z": 0.434
+  },
+  "sog_bytes": 5874666,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

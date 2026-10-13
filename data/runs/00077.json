@@ -1,0 +1,21 @@
+{
+  "id": "00077",
+  "run": "helical-joined_00003-20261012-012604-3841bf",
+  "prompt": "a woman in her twenties with dark skin, short black hair, and a curvy build, wearing a red string bikini with gold rings at the bust and hips, barefoot with no socks or shoes, standing with one leg lifted and the arms extended to the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 160792,
+  "centre_m": [
+    0.012,
+    -0.0118,
+    -2.0838
+  ],
+  "size_m": {
+    "x": 1.15,
+    "y": 1.572,
+    "z": 0.486
+  },
+  "sog_bytes": 5098072,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

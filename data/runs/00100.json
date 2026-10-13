@@ -1,0 +1,21 @@
+{
+  "id": "00100",
+  "run": "helical-joined_00026-20261012-012606-279e54",
+  "prompt": "a man in his sixties with short reddish hair, a round face, and a stocky build, wearing a light gray sleeveless tank top with dark gray trim, black shorts with a beige side panel, and white socks with red bands, black roller skates with white wheels and laces, worn with white socks, standing upright with one arm raised and the hand open, weight on both feet, soft, even, low-contrast studio lighting.",
+  "gaussians": 195979,
+  "centre_m": [
+    -0.0788,
+    -0.0363,
+    -2.3797
+  ],
+  "size_m": {
+    "x": 0.572,
+    "y": 1.827,
+    "z": 0.811
+  },
+  "sog_bytes": 5396724,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

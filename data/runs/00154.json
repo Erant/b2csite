@@ -1,0 +1,21 @@
+{
+  "id": "00154",
+  "run": "helical-joined_00080-20261012-012610-5e6318-result-ply",
+  "prompt": "a woman in her sixties with short white hair, fair skin, and a neutral expression, wearing a white karate gi with a black belt tied in a bow at the waist, the sleeves ending at the wrists and the hem ending above the ankles, barefoot with visible toes and soles, sitting upright on a low block with hands resting on the block's edges and legs crossed at the ankles, soft, even, low-contrast lighting.",
+  "gaussians": 279548,
+  "centre_m": [
+    -0.0116,
+    -0.0125,
+    -1.8677
+  ],
+  "size_m": {
+    "x": 0.663,
+    "y": 1.194,
+    "z": 0.741
+  },
+  "sog_bytes": 6413357,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

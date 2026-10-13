@@ -1,0 +1,21 @@
+{
+  "id": "00145",
+  "run": "helical-joined_00071-20261012-012609-21baae",
+  "prompt": "a woman in her twenties with long dark hair, fair skin, wearing a fitted navy suit, wearing a navy pinstripe blazer with two flap pockets and three black buttons, a white collared shirt, a navy and white patterned neck scarf, and a navy pencil skirt with a straight hem, wearing black patent leather high heels with thin stiletto heels and no visible socks, standing with the legs in a split stance, the left knee straight with the foot flat, the right knee bent with the heel lifted, one arm raised and the other hand on the hip, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 176880,
+  "centre_m": [
+    -0.0447,
+    0.0702,
+    -2.0794
+  ],
+  "size_m": {
+    "x": 0.788,
+    "y": 1.848,
+    "z": 0.383
+  },
+  "sog_bytes": 5218441,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

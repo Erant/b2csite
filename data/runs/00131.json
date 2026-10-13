@@ -1,0 +1,21 @@
+{
+  "id": "00131",
+  "run": "helical-joined_00057-20261012-012608-3e5bf1",
+  "prompt": "a man in his forties with short reddish hair, fair skin, and a stocky build, wearing a black puffer jacket with a hood, a black harness with carabiners, and black insulated pants, wearing heavy-duty hiking boots with yellow accents and black laces, sitting on a block with the legs crossed and the hands resting on the block, soft, even, low-contrast studio lighting.",
+  "gaussians": 274086,
+  "centre_m": [
+    0.0285,
+    -0.0054,
+    -1.824
+  ],
+  "size_m": {
+    "x": 0.742,
+    "y": 1.179,
+    "z": 0.757
+  },
+  "sog_bytes": 6573285,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

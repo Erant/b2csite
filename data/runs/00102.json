@@ -1,0 +1,21 @@
+{
+  "id": "00102",
+  "run": "helical-joined_00028-20261012-012606-343281",
+  "prompt": "a man in his twenties with short dark hair, fair skin, and a stubble beard, wearing a faded blue denim jacket with button closures over a white graphic t-shirt, and slim-fit black jeans with a straight hem, black leather Chelsea boots with elastic side panels and a low heel, bent at the hips with hands on the knees, the head level, the eyes open, soft, even, low-contrast studio lighting.",
+  "gaussians": 261005,
+  "centre_m": [
+    0.002,
+    -0.0905,
+    -1.823
+  ],
+  "size_m": {
+    "x": 0.548,
+    "y": 1.264,
+    "z": 0.758
+  },
+  "sog_bytes": 6409135,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

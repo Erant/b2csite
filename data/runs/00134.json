@@ -1,0 +1,21 @@
+{
+  "id": "00134",
+  "run": "helical-joined_00060-20261012-012608-bc1e20",
+  "prompt": "a woman in her sixties with short dark hair, fair skin, and a muscular build, wearing a black sleeveless tank top with thin straps, a light pink layered tutu with a sheer overlay, and light pink tights, wearing light pink satin ballet pointe shoes with ribbons tied around the ankles, squatting with the hands clasped at the waist and the head tilted slightly upward, soft, even, low-contrast studio lighting.",
+  "gaussians": 271906,
+  "centre_m": [
+    -0.0151,
+    0.0091,
+    -1.5819
+  ],
+  "size_m": {
+    "x": 0.686,
+    "y": 1.108,
+    "z": 0.487
+  },
+  "sog_bytes": 6597623,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00112",
+  "run": "helical-joined_00038-20261012-012607-780dcc",
+  "prompt": "a man in his seventies with disheveled grey hair, a weathered face, and a stocky build, wearing a white lab coat with a pocket on the left chest, a dark tie, and dark grey trousers, wearing black lace-up shoes with dark socks, sitting on a block with the hands resting on the edges and one leg crossed over the other, soft, even, low-contrast studio lighting.",
+  "gaussians": 276713,
+  "centre_m": [
+    0.0134,
+    0.0116,
+    -1.6957
+  ],
+  "size_m": {
+    "x": 0.754,
+    "y": 1.165,
+    "z": 0.785
+  },
+  "sog_bytes": 6356951,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

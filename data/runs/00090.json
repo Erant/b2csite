@@ -1,0 +1,21 @@
+{
+  "id": "00090",
+  "run": "helical-joined_00016-20261012-012605-744e78",
+  "prompt": "a woman in her twenties with platinum blonde hair in a high bun, fair skin, and a slim build, wearing a white cropped zip-up top with red collar and sleeve trim, paired with white high-waisted pants with red side stripes, white heeled ankle boots with zipper details, squatting with the knees bent and the feet flat on the floor, soft, even, low-contrast studio lighting.",
+  "gaussians": 276380,
+  "centre_m": [
+    0.0037,
+    0.0064,
+    -1.6119
+  ],
+  "size_m": {
+    "x": 0.617,
+    "y": 1.164,
+    "z": 0.479
+  },
+  "sog_bytes": 6611090,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

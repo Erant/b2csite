@@ -1,0 +1,21 @@
+{
+  "id": "00146",
+  "run": "helical-joined_00072-20261012-012609-b3da78",
+  "prompt": "a woman in her thirties with short dark hair, fair skin, wearing a black habit, wearing a black, long-sleeved, knee-length habit with a white collar and a white wimple, wearing black slip-on shoes with no visible socks, kneeling with the hands clasped at the front of the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 259706,
+  "centre_m": [
+    0.0273,
+    -0.0398,
+    -1.7569
+  ],
+  "size_m": {
+    "x": 0.503,
+    "y": 1.108,
+    "z": 0.484
+  },
+  "sog_bytes": 6405189,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

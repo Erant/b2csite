@@ -1,0 +1,21 @@
+{
+  "id": "00108",
+  "run": "helical-joined_00034-20261012-012606-8dea4f",
+  "prompt": "a man in his forties with a shaved head and a short grey beard, medium build, light brown skin tone, wearing a teal and purple track suit with a full-length zipper, purple panels on the shoulders and sleeves, and a vertical purple pocket on the left chest, paired with matching teal and purple track pants with vertical purple stripes down the sides and elasticated cuffs, wearing grey and teal sneakers with white laces and black soles, standing upright with the arms at the sides, the weight on the left leg, soft, even, low-contrast studio lighting.",
+  "gaussians": 228609,
+  "centre_m": [
+    0.0385,
+    0.0062,
+    -2.111
+  ],
+  "size_m": {
+    "x": 0.55,
+    "y": 1.677,
+    "z": 0.492
+  },
+  "sog_bytes": 6112548,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

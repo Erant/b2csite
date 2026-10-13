@@ -1,0 +1,21 @@
+{
+  "id": "00083",
+  "run": "helical-joined_00009-20261012-012605-2a8e9a",
+  "prompt": "a woman in her twenties with long dark hair in two braids, fair skin, and a slender build, wearing a cream-colored lace dress with a sweetheart neckline, sheer sleeves with flared cuffs, and a sheer overlay with a hem reaching mid-thigh, barefoot with no socks or shoes, standing upright with the arms at the sides and the hands clasped together at mid-thigh, soft, even, low-contrast studio lighting.",
+  "gaussians": 231690,
+  "centre_m": [
+    -0.0133,
+    -0.0147,
+    -1.9099
+  ],
+  "size_m": {
+    "x": 0.482,
+    "y": 1.588,
+    "z": 0.349
+  },
+  "sog_bytes": 6026726,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

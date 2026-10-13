@@ -1,0 +1,21 @@
+{
+  "id": "00135",
+  "run": "helical-joined_00061-20261012-012608-c85c29",
+  "prompt": "a woman in her twenties with light brown hair, fair skin, wearing a white visor, wearing a white sleeveless tennis dress with a pleated skirt and a gathered bodice, wearing white athletic sneakers with white laces and white soles, sitting on a grey block with one knee bent and the other leg extended, leaning on the block with one hand, soft, even, low-contrast studio lighting.",
+  "gaussians": 229126,
+  "centre_m": [
+    0.0368,
+    0.0686,
+    -2.1502
+  ],
+  "size_m": {
+    "x": 0.789,
+    "y": 1.371,
+    "z": 0.65
+  },
+  "sog_bytes": 5872285,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

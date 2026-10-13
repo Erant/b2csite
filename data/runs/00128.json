@@ -1,0 +1,21 @@
+{
+  "id": "00128",
+  "run": "helical-joined_00054-20261012-012608-41fb2c",
+  "prompt": "a man in his thirties with short dark hair, a medium build, and a tan complexion, wearing a yellow, crinkled, full-body protective suit with a hood and a front zipper, the suit has a collar and a seam at the waist, the sleeves are long and end at the wrists, the hem reaches the ankles, wearing yellow booties that match the suit, with no visible socks, standing upright with the arms at the sides and the hands clasped at the waist, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 223382,
+  "centre_m": [
+    0.0155,
+    -0.0643,
+    -2.0176
+  ],
+  "size_m": {
+    "x": 0.618,
+    "y": 1.647,
+    "z": 0.488
+  },
+  "sog_bytes": 6019111,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

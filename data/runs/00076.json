@@ -1,0 +1,21 @@
+{
+  "id": "00076",
+  "run": "helical-joined_00002-20261012-012604-837684",
+  "prompt": "a woman in her twenties with medium-length brown hair, fair skin, and a slender build, wearing a cream-colored crochet bikini with thin straps, a triangle top with a thin waistband, and a matching bottom with side ties and beaded tassels, barefoot, standing upright with the arms slightly away from the body and the feet slightly apart, soft, even, low-contrast lighting.",
+  "gaussians": 192847,
+  "centre_m": [
+    -0.0015,
+    0.0353,
+    -2.3903
+  ],
+  "size_m": {
+    "x": 0.634,
+    "y": 1.65,
+    "z": 0.57
+  },
+  "sog_bytes": 5531935,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

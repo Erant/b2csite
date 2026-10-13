@@ -1,0 +1,21 @@
+{
+  "id": "00148",
+  "run": "helical-joined_00074-20261012-012609-a823a8",
+  "prompt": "a woman in her sixties with short red hair, fair skin, and a neutral expression, wearing a black academic gown with a V-neck and a front zipper, over black trousers, black leather loafers with black socks, standing with one foot on a pedestal and the other foot on the floor, hands resting at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 245321,
+  "centre_m": [
+    -0.0119,
+    0.0256,
+    -2.0188
+  ],
+  "size_m": {
+    "x": 0.554,
+    "y": 1.649,
+    "z": 0.527
+  },
+  "sog_bytes": 6139766,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

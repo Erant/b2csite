@@ -1,0 +1,21 @@
+{
+  "id": "00156",
+  "run": "helical-joined_00082-20261012-012610-e52c68-result-ply",
+  "prompt": "a woman in her sixties with dark hair pulled back, wearing a beige kurta with floral embroidery and a V-neckline, long sleeves, and a matching scarf draped over the shoulders, paired with a matching pair of pants with embroidered hems, wearing beige embroidered juttis, standing upright with the arms at the sides, the hands resting at the sides of the body, the head level, the eyes open, soft, even, low-contrast studio lighting.",
+  "gaussians": 238256,
+  "centre_m": [
+    0.0109,
+    0.0021,
+    -2.1713
+  ],
+  "size_m": {
+    "x": 0.448,
+    "y": 1.64,
+    "z": 0.379
+  },
+  "sog_bytes": 6066247,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

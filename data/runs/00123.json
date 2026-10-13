@@ -1,0 +1,21 @@
+{
+  "id": "00123",
+  "run": "helical-joined_00049-20261012-012607-ce40e2",
+  "prompt": "a man in his sixties with curly grey hair, a round face, and a cheerful expression, wearing a plaid shirt with rolled-up sleeves, brown leather suspenders with a decorative buckle, and brown leather shorts with frayed hems and embroidered pockets, wearing brown leather shoes with laces, paired with thick beige socks, standing with the weight on one leg and the other knee bent, arms hanging loosely at the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 251860,
+  "centre_m": [
+    0.0209,
+    0.0031,
+    -2.5258
+  ],
+  "size_m": {
+    "x": 0.671,
+    "y": 1.487,
+    "z": 0.819
+  },
+  "sog_bytes": 6231115,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00079",
+  "run": "helical-joined_00005-20261012-012604-e45f75",
+  "prompt": "a woman in her twenties with curly red hair, fair skin, and a slender build, wearing a gold satin slip dress with thin spaghetti straps and a V-neckline, barefoot with no socks or shoes, standing upright with one hand resting on the shoulder and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 190812,
+  "centre_m": [
+    -0.0234,
+    -0.021,
+    -2.0363
+  ],
+  "size_m": {
+    "x": 0.491,
+    "y": 1.608,
+    "z": 0.417
+  },
+  "sog_bytes": 5488004,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

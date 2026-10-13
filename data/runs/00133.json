@@ -1,0 +1,21 @@
+{
+  "id": "00133",
+  "run": "helical-joined_00059-20261012-012608-f6fe82",
+  "prompt": "a woman in her seventies with white hair tied in a bun, fair skin, and a slender build, wearing a black sleeveless athletic tank top with a scoop neck and a hem reaching the waist, and navy blue athletic shorts with a straight hem and no visible pockets, wearing black athletic sneakers with white soles and laces, and no visible socks, standing upright with one arm raised above the head and the other at the side, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 163678,
+  "centre_m": [
+    0.0069,
+    -0.0057,
+    -2.1665
+  ],
+  "size_m": {
+    "x": 0.505,
+    "y": 2.044,
+    "z": 0.395
+  },
+  "sog_bytes": 4980244,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

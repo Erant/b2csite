@@ -1,0 +1,21 @@
+{
+  "id": "00120",
+  "run": "helical-joined_00046-20261012-012607-6a05cb",
+  "prompt": "an elderly man with short grey hair and glasses, a dark blue kimono with wide sleeves and a striped obi tied at the waist, the hem reaching the ankles, wooden geta sandals with black straps, standing upright with one hand at the collar and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 212727,
+  "centre_m": [
+    0.0242,
+    -0.0075,
+    -2.4094
+  ],
+  "size_m": {
+    "x": 0.61,
+    "y": 1.66,
+    "z": 0.426
+  },
+  "sog_bytes": 5783205,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

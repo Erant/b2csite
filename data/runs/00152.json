@@ -1,0 +1,21 @@
+{
+  "id": "00152",
+  "run": "helical-joined_00078-20261012-012610-0aea87-result-ply",
+  "prompt": "a woman in her seventies with short grey hair, fair skin, wearing a black lace dress, wearing a black lace dress with long sleeves, a square neckline, and a layered skirt hem, with a black velvet choker necklace, wearing black lace-up platform boots with thick soles and black tights, standing upright with one arm raised and the hand forming a peace sign, soft, even, low-contrast studio lighting.",
+  "gaussians": 168181,
+  "centre_m": [
+    -0.0055,
+    0.0751,
+    -2.4844
+  ],
+  "size_m": {
+    "x": 0.5,
+    "y": 2.017,
+    "z": 0.407
+  },
+  "sog_bytes": 5190886,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

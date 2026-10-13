@@ -1,0 +1,21 @@
+{
+  "id": "00129",
+  "run": "helical-joined_00055-20261012-012608-cac23f",
+  "prompt": "a man in his fifties with short dark hair and a beard, medium build, dark skin tone, wearing a white astronaut suit with a chest-mounted equipment pack, a helmet resting on the shoulders, and a zipper running down the front, wearing white boots with grey soles and no visible socks, standing with the arms extended out to the sides and one leg lifted, soft, even, low-contrast studio lighting.",
+  "gaussians": 279408,
+  "centre_m": [
+    -0.0044,
+    -0.0079,
+    -2.4457
+  ],
+  "size_m": {
+    "x": 0.89,
+    "y": 1.596,
+    "z": 0.613
+  },
+  "sog_bytes": 6381662,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

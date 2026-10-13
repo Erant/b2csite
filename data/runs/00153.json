@@ -1,0 +1,21 @@
+{
+  "id": "00153",
+  "run": "helical-joined_00079-20261012-012610-4ebc1d-result-ply",
+  "prompt": "a woman in her twenties with dark hair in a ponytail, medium build, light brown skin, wearing a black studded leather jacket with torn sleeves over a black top, red plaid ripped trousers with frayed hems, black lace-up combat boots with thick soles, no visible socks, crouching low with the hands resting on the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 298217,
+  "centre_m": [
+    0.0227,
+    -0.0673,
+    -1.84
+  ],
+  "size_m": {
+    "x": 0.562,
+    "y": 1.045,
+    "z": 0.494
+  },
+  "sog_bytes": 7024808,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

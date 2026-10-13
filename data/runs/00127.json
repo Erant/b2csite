@@ -1,0 +1,21 @@
+{
+  "id": "00127",
+  "run": "helical-joined_00053-20261012-012608-82c035",
+  "prompt": "a man in his sixties with a grey beard and curly grey hair, wearing a light brown complexion, standing upright, wearing a grey wool overcoat with a notched lapel and flap pockets, over a black suit with a white shirt and black tie, with a grey fringed scarf draped around the neck, black leather dress shoes, standing with the arms at the sides, hands gloved and clasped at the front, soft, even, low-contrast lighting.",
+  "gaussians": 226054,
+  "centre_m": [
+    0.0142,
+    -0.0087,
+    -2.6098
+  ],
+  "size_m": {
+    "x": 0.575,
+    "y": 1.701,
+    "z": 0.403
+  },
+  "sog_bytes": 5772168,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

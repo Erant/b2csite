@@ -1,0 +1,21 @@
+{
+  "id": "00150",
+  "run": "helical-joined_00076-20261012-012609-1622e7-result-ply",
+  "prompt": "a woman in her twenties with dark skin, long dark dreadlocks, and a feathered headband, wearing a beige fringed dress with sequin embellishments and a V-neckline, barefoot, mid-jump with arms slightly bent and hands open, soft, even, low-contrast studio lighting.",
+  "gaussians": 215624,
+  "centre_m": [
+    0.0274,
+    0.0563,
+    -2.3552
+  ],
+  "size_m": {
+    "x": 0.801,
+    "y": 1.766,
+    "z": 0.395
+  },
+  "sog_bytes": 5890548,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

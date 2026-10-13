@@ -1,0 +1,21 @@
+{
+  "id": "00088",
+  "run": "helical-joined_00014-20261012-012605-64f7ba",
+  "prompt": "a woman in her twenties with fair skin, blonde hair in a messy bun, and light brown eyes, wearing a black short-sleeved dress with white lace trim and a bow at the neckline, paired with a white frilled apron, black high-heeled platform shoes with a platform sole, worn with black lace thigh-high stockings, sitting with one knee bent and the other leg extended, hands resting on the thigh, soft, even, low-contrast lighting.",
+  "gaussians": 199164,
+  "centre_m": [
+    0.0579,
+    0.0113,
+    -2.012
+  ],
+  "size_m": {
+    "x": 0.536,
+    "y": 1.597,
+    "z": 0.466
+  },
+  "sog_bytes": 5492228,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

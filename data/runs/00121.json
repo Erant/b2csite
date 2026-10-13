@@ -1,0 +1,21 @@
+{
+  "id": "00121",
+  "run": "helical-joined_00047-20261012-012607-5835e7",
+  "prompt": "a man in his twenties with short red hair and fair skin, wearing a white linen shirt with a buttoned placket and rolled sleeves, and white dhoti-style pants with gold trim, brown leather sandals with two straps, bent at the hips with hands resting on the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 237071,
+  "centre_m": [
+    0.0109,
+    -0.0978,
+    -1.9726
+  ],
+  "size_m": {
+    "x": 0.485,
+    "y": 1.338,
+    "z": 0.759
+  },
+  "sog_bytes": 5947431,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

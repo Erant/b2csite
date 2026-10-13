@@ -1,0 +1,21 @@
+{
+  "id": "00087",
+  "run": "helical-joined_00013-20261012-012605-f8f147",
+  "prompt": "a woman in her twenties with dark skin, short straight black hair, and a neutral expression, wearing a black patent leather corset with lace-up front and matching shorts, the corset has thin straps and a fitted silhouette, wearing black lace-up thigh-high boots with a thick sole and no visible socks, sitting upright with hands clasped at the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 217061,
+  "centre_m": [
+    0.0026,
+    0.0244,
+    -1.8639
+  ],
+  "size_m": {
+    "x": 0.368,
+    "y": 1.277,
+    "z": 0.634
+  },
+  "sog_bytes": 5786963,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

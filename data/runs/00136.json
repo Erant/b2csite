@@ -1,0 +1,21 @@
+{
+  "id": "00136",
+  "run": "helical-joined_00062-20261012-012608-57d303",
+  "prompt": "a woman in her thirties with brown hair tied back, fair skin, and a lean build, wearing a short-sleeved cycling jersey with blue, white, and red panels and a crescent moon and star emblem on the left shoulder, paired with black cycling shorts with a padded seat and a visible seam line running down the right thigh, white cycling shoes with black laces and black soles, worn with white socks that have a black logo on the left ankle, standing upright with the weight on one leg and the other leg slightly bent at the knee, the left hand resting on the hip and the right hand hanging at the side, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 214735,
+  "centre_m": [
+    0.0143,
+    0.0078,
+    -1.8635
+  ],
+  "size_m": {
+    "x": 0.357,
+    "y": 1.659,
+    "z": 0.462
+  },
+  "sog_bytes": 5727017,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

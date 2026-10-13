@@ -1,0 +1,21 @@
+{
+  "id": "00149",
+  "run": "helical-joined_00075-20261012-012609-5c7ebf",
+  "prompt": "a woman in her fifties with shoulder-length brown hair, wearing a black riding helmet, wearing a black blazer with three buttons and flap pockets, over a white collared shirt, and grey riding pants, wearing black leather tall riding boots, standing with one heel lifted and the other foot flat on the floor, soft, even, low-contrast lighting.",
+  "gaussians": 205006,
+  "centre_m": [
+    -0.0188,
+    0.0182,
+    -2.2263
+  ],
+  "size_m": {
+    "x": 0.623,
+    "y": 1.512,
+    "z": 0.578
+  },
+  "sog_bytes": 5547473,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00105",
+  "run": "helical-joined_00031-20261012-012606-1326e3",
+  "prompt": "a man in his sixties with a bald head, a grey beard, and dark skin, wearing a navy double-breasted blazer with gold buttons, a white dress shirt, and white trousers, wearing beige suede boat shoes with brown laces, standing with one arm raised and the other at the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 217307,
+  "centre_m": [
+    0.0359,
+    -0.0057,
+    -2.1107
+  ],
+  "size_m": {
+    "x": 0.748,
+    "y": 1.807,
+    "z": 0.531
+  },
+  "sog_bytes": 5617302,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00086",
+  "run": "helical-joined_00012-20261012-012605-412b40",
+  "prompt": "a woman in her twenties with short dark hair, medium build, light brown skin, wearing a beige satin strapless crop top and a khaki cargo mini skirt with belt loops and flap pockets, wearing beige platform sandals with thick soles and open toes, sitting on a block with one knee bent and the other leg extended, hands resting on the block, soft, even, low-contrast studio lighting.",
+  "gaussians": 220986,
+  "centre_m": [
+    0.0162,
+    0.0055,
+    -1.8727
+  ],
+  "size_m": {
+    "x": 0.722,
+    "y": 1.336,
+    "z": 0.728
+  },
+  "sog_bytes": 5879295,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

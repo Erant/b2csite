@@ -1,0 +1,21 @@
+{
+  "id": "00092",
+  "run": "helical-joined_00018-20261012-012605-d16b41",
+  "prompt": "a woman in her twenties with long black hair, fair skin, and a slim build, wearing a deep purple velvet two-piece set with a bralette top and a high-waisted mini skirt, barefoot with a thin silver chain anklet on the right ankle, standing upright with the arms raised and hands clasped at the back of the head, soft, even, low-contrast studio lighting.",
+  "gaussians": 185995,
+  "centre_m": [
+    0.0206,
+    0.0447,
+    -2.1606
+  ],
+  "size_m": {
+    "x": 0.681,
+    "y": 1.675,
+    "z": 0.35
+  },
+  "sog_bytes": 5431872,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

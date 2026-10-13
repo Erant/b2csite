@@ -1,0 +1,21 @@
+{
+  "id": "00122",
+  "run": "helical-joined_00048-20261012-012607-89a067",
+  "prompt": "a man in his fifties with short dark hair, a round face, and a medium build, wearing a long, striped, hooded robe with a central zipper and green trim on the cuffs, yellow slip-on shoes with a smooth material, standing with the arms extended out to the sides, soft, even, low-contrast studio lighting.",
+  "gaussians": 227010,
+  "centre_m": [
+    0.0152,
+    -0.0634,
+    -2.4421
+  ],
+  "size_m": {
+    "x": 0.933,
+    "y": 1.575,
+    "z": 0.857
+  },
+  "sog_bytes": 5808992,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

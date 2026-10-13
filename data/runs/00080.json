@@ -1,0 +1,21 @@
+{
+  "id": "00080",
+  "run": "helical-joined_00006-20261012-012604-219396",
+  "prompt": "a woman in her twenties with fair skin, blonde hair in a high bun, and a slender build, wearing a form-fitting red long-sleeved mini dress with a V-neck and ruched bodice, wearing black patent leather stiletto heels with pointed toes, standing with one arm raised and the other extended to the side, soft, even, low-contrast studio lighting.",
+  "gaussians": 170833,
+  "centre_m": [
+    0.0193,
+    0.0996,
+    -2.2391
+  ],
+  "size_m": {
+    "x": 0.691,
+    "y": 2.017,
+    "z": 0.438
+  },
+  "sog_bytes": 5216080,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

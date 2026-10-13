@@ -1,0 +1,21 @@
+{
+  "id": "00151",
+  "run": "helical-joined_00077-20261012-012609-fa218a-result-ply",
+  "prompt": "a woman in her thirties with curly dark hair, medium build, light brown skin, wearing a grey cardigan over a floral-patterned dress with lace trim and a sheer ruffled hem, black flat shoes with a smooth finish, sitting with the knees drawn up and the hands clasped at the knees, soft, even, low-contrast studio lighting.",
+  "gaussians": 311123,
+  "centre_m": [
+    0.014,
+    0.001,
+    -1.398
+  ],
+  "size_m": {
+    "x": 0.437,
+    "y": 0.884,
+    "z": 0.717
+  },
+  "sog_bytes": 6998757,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

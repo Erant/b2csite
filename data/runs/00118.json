@@ -1,0 +1,21 @@
+{
+  "id": "00118",
+  "run": "helical-joined_00044-20261012-012607-29d122",
+  "prompt": "a man in his thirties with short dark hair, a muscular build, and a dark skin tone, wearing a patterned wraparound garment in yellow, green, and maroon, draped over the left shoulder and covering the torso and thighs, wearing black flip-flops with a single strap over the toes, kneeling on one knee with the other knee bent and the hands resting on the thighs, soft, even, low-contrast studio lighting.",
+  "gaussians": 278738,
+  "centre_m": [
+    0.0114,
+    -0.0305,
+    -1.6339
+  ],
+  "size_m": {
+    "x": 0.588,
+    "y": 1.092,
+    "z": 0.577
+  },
+  "sog_bytes": 6919648,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "00107",
+  "run": "helical-joined_00033-20261012-012606-b477d9",
+  "prompt": "a man in his sixties with short dark hair, wearing a flat cap, and a light brown complexion, wearing a black and red sleeveless basketball jersey with white trim and the number 13 in red, over a pair of loose-fitting blue denim jeans, wearing light gray athletic sneakers with dark soles and no visible socks, crouched low with the weight on one leg and the other knee bent, the torso bent at the hips, the left hand on the thigh, soft, even, low-contrast studio lighting with faint shadows.",
+  "gaussians": 245704,
+  "centre_m": [
+    0.1162,
+    -0.0886,
+    -2.0476
+  ],
+  "size_m": {
+    "x": 0.669,
+    "y": 1.289,
+    "z": 0.786
+  },
+  "sog_bytes": 6252291,
+  "input": {
+    "w": 1400,
+    "h": 1245
+  }
+}
