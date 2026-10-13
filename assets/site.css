@@ -11,6 +11,8 @@
   --sans: "Inter", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, monospace;
   --gutter: clamp(16px, 4vw, 48px);
+  /* fills the window below the stage's scroll margin, up to 1.75x the old 860px cap */
+  --stage-h: min(calc(100vh - 32px), 1505px);
   color-scheme: dark;
 }
 
@@ -87,7 +89,7 @@ a { color: inherit; }
 }
 .viewport {
   position: relative;
-  height: min(82vh, 860px);
+  height: var(--stage-h);
   min-height: 480px;
 }
 .viewport iframe {
@@ -114,7 +116,7 @@ a { color: inherit; }
   border-left: 1px solid var(--line);
   background: var(--surface);
   overflow-y: auto;
-  max-height: min(82vh, 860px);
+  max-height: var(--stage-h);
 }
 .panel-head {
   display: grid;
@@ -138,6 +140,15 @@ a { color: inherit; }
 .stepper button:hover { border-color: var(--muted); }
 
 .input { margin: 0; }
+.enlarge {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+.enlarge:focus-visible { outline: 1px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
 .input img {
   display: block;
   width: 100%;
@@ -153,6 +164,27 @@ a { color: inherit; }
   color: var(--muted);
 }
 .input figcaption .label { margin-right: 8px; }
+
+.lightbox {
+  max-width: none;
+  max-height: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: var(--gutter);
+  border: 0;
+  background: transparent;
+  cursor: zoom-out;
+}
+.lightbox[open] { display: grid; place-items: center; }
+.lightbox::backdrop { background: rgb(8 8 10 / 0.88); }
+.lightbox img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  background: #222;
+}
 
 .prompt p {
   margin: 8px 0 0;

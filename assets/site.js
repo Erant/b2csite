@@ -63,10 +63,18 @@
     grid.append(li);
   }
 
+  // The reference sheet opens full-window; any click or Esc closes it.
+  const lightbox = $("lightbox");
+  $("enlarge").addEventListener("click", () => {
+    $("lightbox-img").src = $("input-img").src;
+    lightbox.showModal();
+  });
+  lightbox.addEventListener("click", () => lightbox.close());
+
   $("prev").addEventListener("click", () => show(current - 1));
   $("next").addEventListener("click", () => show(current + 1));
   document.addEventListener("keydown", (e) => {
-    if (e.target.closest("input, textarea, select")) return;
+    if (e.target.closest("input, textarea, select") || lightbox.open) return;
     if (e.key === "ArrowLeft") show(current - 1);
     if (e.key === "ArrowRight") show(current + 1);
   });
