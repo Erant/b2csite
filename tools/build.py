@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build the showcase's media from b2crunner run folders.
 
-For every run under --src (a folder of run directories, each with ply/scene.ply
-and log.txt) this writes:
+For every run under each --src (a folder of run directories, each with
+ply/scene.ply and log.txt) this writes:
 
   splats/<id>.sog          the splat, SOG-compressed at full SH3, turned upright
                            for PlayCanvas viewers (the runs are y-down)
@@ -66,17 +66,25 @@ def run(cmd):
         sys.exit(f"failed: {' '.join(cmd)}\n{r.stdout[-2000:]}\n{r.stderr[-2000:]}")
 
 
-def find_runs(src):
-    """{id: run dir}; a rerun of the same id replaces the older run."""
+def parse_src(spec):
+    """PATH or PATH+OFFSET: a source folder and what to add to its run numbers."""
+    m = re.fullmatch(r"(.+?)(?:\+(\d+))?", spec)
+    return Path(m.group(1)), int(m.group(2) or 0)
+
+
+def find_runs(sources):
+    """{id: run dir} across (folder, offset) sources; a rerun of the same id
+    replaces the older run."""
     runs = {}
-    for d in sorted(Path(src).iterdir()):
-        m = re.search(r"_(\d{5})(?:-|$)", d.name)
-        ply = d / "ply" / "scene.ply"
-        if not m or not ply.exists():
-            continue
-        rid = m.group(1)
-        if rid not in runs or ply.stat().st_mtime > (runs[rid] / "ply" / "scene.ply").stat().st_mtime:
-            runs[rid] = d
+    for src, offset in sources:
+        for d in sorted(src.iterdir()):
+            m = re.search(r"_(\d{5})(?:-|$)", d.name)
+            ply = d / "ply" / "scene.ply"
+            if not m or not ply.exists():
+                continue
+            rid = f"{int(m.group(1)) + offset:05d}"
+            if rid not in runs or ply.stat().st_mtime > (runs[rid] / "ply" / "scene.ply").stat().st_mtime:
+                runs[rid] = d
     return runs
 
 
@@ -231,7 +239,11 @@ def build_viewer(st, sample_sog):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--src", default="/mnt/data/plys", help="folder of b2crunner run directories")
+    # Each batch numbers its runs from 00001; the offset moves a later batch
+    # past the ids the earlier ones already use.
+    ap.add_argument("--src", action="append", type=parse_src,
+                    help="folder of b2crunner run directories, optionally +OFFSET to add to its run "
+                         "numbers (repeatable; default: /mnt/data/plys and /mnt/data/run2+74)")
     ap.add_argument("--uploads-root", default="/mnt/data/b2crunner",
                     help="host folder mounted as /data in the runner (for the logged reference image path)")
     ap.add_argument("--only", nargs="*", help="build just these ids")
@@ -245,7 +257,7 @@ def main():
 
     curation = json.loads((TOOLS / "curation.json").read_text())
     exclude = set(curation.get("exclude", []))
-    runs = find_runs(args.src)
+    runs = find_runs(args.src or [parse_src("/mnt/data/plys"), parse_src("/mnt/data/run2+74")])
     todo = sorted(r for r in runs if r not in exclude and (not args.only or r in args.only))
     for i, rid in enumerate(todo, 1):
         print(f"[{i}/{len(todo)}] {rid}  {runs[rid].name}")

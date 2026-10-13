@@ -21,7 +21,7 @@ tools/                   the build (not served content, just harmless if it is)
 
 ```bash
 cd tools && npm ci && cd ..           # the pinned @playcanvas/splat-transform
-python3 tools/build.py                 # every run under /mnt/data/plys
+python3 tools/build.py                 # every run under /mnt/data/plys and /mnt/data/run2
 python3 tools/build.py --only 00018    # one run
 python3 tools/build.py --viewer        # re-unpack the viewer after bumping splat-transform
 ```
@@ -30,6 +30,11 @@ Needs Node 18+ and Pillow. The SH compression runs on WebGPU, which needs a Vulk
 on the host. A run is skipped when its outputs are newer than its `scene.ply`
 (`--force` rebuilds). Run folders are read from `--src`, and the reference image path
 in each run's `log.txt` is mapped from the runner's `/data` to `--uploads-root`.
+
+Every batch numbers its runs from 00001, so a later batch is given an offset that moves
+it past the ids already in use: `--src /mnt/data/run2+74` publishes its run 00001 as
+00075. The default sources are `/mnt/data/plys` and `/mnt/data/run2+74`; pass `--src`
+(repeatable) to change them.
 
 ## Curating
 
