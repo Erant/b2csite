@@ -204,15 +204,16 @@ a { color: inherit; }
 .stats dt { font: 500 10.5px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); }
 .stats dd { margin: 6px 0 0; font: 400 15px/1 var(--mono); }
 
+.downloads { display: flex; flex-wrap: wrap; gap: 8px; align-self: flex-start; }
 .download {
   display: inline-block;
-  align-self: flex-start;
   padding: 10px 16px;
   border: 1px solid var(--line);
   border-radius: 8px;
   font-size: 14px;
   text-decoration: none;
 }
+.download[hidden] { display: none; }
 .download:hover { border-color: var(--accent); color: var(--accent); }
 
 .license {
@@ -283,6 +284,17 @@ a { color: inherit; }
 .card .back { opacity: 0; }
 .card:hover .back, .card:focus-visible .back { opacity: 1; }
 .card:hover .front, .card:focus-visible .front { opacity: 0; }
+.card .tag {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 22px;
+  height: 22px;
+  fill: var(--accent);
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
 .card span {
   position: absolute;
   left: 10px;

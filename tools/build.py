@@ -237,6 +237,25 @@ def build_viewer(st, sample_sog):
     (SITE / "viewer" / "VERSION").write_text(version + "\n")
 
 
+def write_gallery(curation, exclude):
+    """data/gallery.json: every built run that is not excluded, whether built now or before
+    (animated.py's subjects included)."""
+    entries = []
+    for meta_file in sorted((SITE / "data" / "runs").glob("*.json")):
+        meta = json.loads(meta_file.read_text())
+        if meta["id"] not in exclude and (SITE / "splats" / f"{meta['id']}.sog").exists():
+            entries.append(meta)
+    # Ids in curation "order" lead, in that order; the rest follow by id.
+    order = {rid: i for i, rid in enumerate(curation.get("order", []))}
+    entries.sort(key=lambda e: (order.get(e["id"], len(order)), e["id"]))
+    featured = curation.get("featured")
+    if featured not in {e["id"] for e in entries}:
+        featured = entries[0]["id"] if entries else None
+    (SITE / "data" / "gallery.json").write_text(json.dumps({"featured": featured, "runs": entries}, indent=1) + "\n")
+    total = sum(e["sog_bytes"] for e in entries)
+    print(f"gallery: {len(entries)} runs, {total / 1e6:.0f} MB of splats")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     # Each batch numbers its runs from 00001; the offset moves a later batch
@@ -271,24 +290,10 @@ def main():
     # Excluded runs lose their media, so nothing unlisted gets published.
     for rid in exclude:
         for f in (f"splats/{rid}.sog", f"settings/{rid}.json", f"thumbs/{rid}-front.webp",
-                  f"thumbs/{rid}-back.webp", f"inputs/{rid}.webp", f"data/runs/{rid}.json"):
+                  f"thumbs/{rid}-back.webp", f"inputs/{rid}.webp", f"data/runs/{rid}.json", f"clips/{rid}.clip.zip"):
             (SITE / f).unlink(missing_ok=True)
 
-    # The gallery: every built run that is not excluded, whether built now or before.
-    entries = []
-    for meta_file in sorted((SITE / "data" / "runs").glob("*.json")):
-        meta = json.loads(meta_file.read_text())
-        if meta["id"] not in exclude and (SITE / "splats" / f"{meta['id']}.sog").exists():
-            entries.append(meta)
-    # Ids in curation "order" lead, in that order; the rest follow by id.
-    order = {rid: i for i, rid in enumerate(curation.get("order", []))}
-    entries.sort(key=lambda e: (order.get(e["id"], len(order)), e["id"]))
-    featured = curation.get("featured")
-    if featured not in {e["id"] for e in entries}:
-        featured = entries[0]["id"] if entries else None
-    (SITE / "data" / "gallery.json").write_text(json.dumps({"featured": featured, "runs": entries}, indent=1) + "\n")
-    total = sum(e["sog_bytes"] for e in entries)
-    print(f"gallery: {len(entries)} runs, {total / 1e6:.0f} MB of splats")
+    write_gallery(curation, exclude)
 
 
 if __name__ == "__main__":

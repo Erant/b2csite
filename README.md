@@ -9,7 +9,9 @@ files as they are.
 index.html, assets/      the page
 viewer/                  the SuperSplat viewer, unpacked by splat-transform (VERSION),
                          plus autoframe.js, which keeps the subject framed at any size
+viewer-anim/             the same viewer with b2c rig playback, for animated subjects (VERSION)
 splats/<id>.sog          SOG-compressed splats (full SH3, upright for PlayCanvas)
+clips/<id>.clip.zip      the clip of an animated subject (b2cgltf SPEC 10.2)
 settings/<id>.json       per-splat viewer settings (camera on the subject, its extents)
 thumbs/<id>-{front,back}.webp   gallery renders
 inputs/<id>.webp         the reference sheet each run started from
@@ -35,6 +37,22 @@ Every batch numbers its runs from 00001, so a later batch is given an offset tha
 it past the ids already in use: `--src /mnt/data/run2+74` publishes its run 00001 as
 00075. The default sources are `/mnt/data/plys` and `/mnt/data/run2+74`; pass `--src`
 (repeatable) to change them.
+
+## Animated subjects
+
+An animated subject is a rigged web subject (`.sog`) and a web clip (`.clip.zip`), as b2canimate's
+**s0g** button saves them. `tools/animated.py` adds one under an id of your choosing (it writes the
+media, the settings and `data/runs/<id>.json`, whose `clip` entry makes the page open it in
+`viewer-anim/` with the clip; the `.sog` still opens as a plain splat anywhere else):
+
+```bash
+python3 tools/animated.py --id 00157 --sog lara.sog --clip lara.clip.zip --input ref.png --prompt ref.txt
+```
+
+`viewer-anim/inplace.js` holds a running subject on the spot (it flattens the clip's travel) and
+grows the splat's bounds to every pose: on WebGL the engine sorts on the CPU over the rest pose's bounds,
+and splats posed outside them lose their draw order (the far side shows through).
+Animated ids need an entry in `tools/curation.json` `order` only if you want them ahead of the rest.
 
 ## Curating
 

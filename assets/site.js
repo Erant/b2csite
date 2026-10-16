@@ -19,9 +19,12 @@
 
   const mb = (bytes) => `${(bytes / 1e6).toFixed(1)} MB`;
 
-  const viewerUrl = (id) =>
-    `viewer/index.html?content=${encodeURIComponent(`../splats/${id}.sog`)}` +
-    `&settings=${encodeURIComponent(`../settings/${id}.json`)}&webgl`;
+  // An animated subject plays its clip in viewer-anim/, which can pose a rigged splat.
+  const viewerUrl = (run) =>
+    `${run.clip ? "viewer-anim" : "viewer"}/index.html?content=${encodeURIComponent(`../splats/${run.id}.sog`)}` +
+    `&settings=${encodeURIComponent(`../settings/${run.id}.json`)}` +
+    (run.clip ? `&clip=${encodeURIComponent(`../${run.clip.file}`)}` : "") +
+    "&webgl";
 
   function show(i, { scroll = false } = {}) {
     i = (i + runs.length) % runs.length;
@@ -30,7 +33,7 @@
     const run = runs[i];
 
     // replace() keeps the iframe's navigations out of the page's history
-    const url = viewerUrl(run.id);
+    const url = viewerUrl(run);
     if (viewer.contentWindow && viewer.src) viewer.contentWindow.location.replace(url);
     else viewer.src = url;
 
@@ -42,6 +45,11 @@
     $("stat-count").textContent = run.gaussians.toLocaleString("en-US");
     $("stat-size").textContent = mb(run.sog_bytes);
     $("download").href = `splats/${run.id}.sog`;
+    $("download-clip").hidden = !run.clip;
+    if (run.clip) {
+      $("download-clip").href = run.clip.file;
+      $("download-clip").textContent = `Download clip (${mb(run.clip.bytes)})`;
+    }
 
     for (const card of grid.querySelectorAll(".card")) {
       card.setAttribute("aria-current", card.dataset.id === run.id ? "true" : "false");
@@ -57,7 +65,7 @@
       <button type="button" class="card" data-id="${run.id}" aria-label="Subject ${run.id}">
         <img class="front" src="thumbs/${run.id}-front.webp" alt="" loading="lazy" decoding="async" width="480" height="720">
         <img class="back" src="thumbs/${run.id}-back.webp" alt="" loading="lazy" decoding="async" width="480" height="720">
-        <span>${run.id}</span>
+        <span>${run.id}</span>${run.clip ? `<svg class="tag" viewBox="0 0 24 24" role="img" aria-label="Animated"><title>Animated</title><circle cx="17" cy="12" r="4"/><path d="M3 8h7M1 12h8M3 16h7"/></svg>` : ""}
       </button>`;
     li.firstElementChild.addEventListener("click", () => show(index.get(run.id), { scroll: true }));
     grid.append(li);

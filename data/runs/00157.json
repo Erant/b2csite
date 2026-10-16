@@ -1,0 +1,25 @@
+{
+  "id": "00157",
+  "run": null,
+  "prompt": "Lara Croft from Tomb Raider, a fit woman with dark brown hair pulled into a long single braid that hangs down the nape and upper back, with loose wisps framing the face. She wears a fitted teal tank top with a scoop neckline, worn over by brown leather backpack straps that connect to a small weathered brown leather satchel-style backpack with a front flap and buckle, carried between the shoulder blades. A wide brown leather belt with a large brass buckle sits at the waist over khaki-brown cargo shorts with flap pockets on the seat. Brown leather thigh holsters on both legs each hold a pistol and are secured by leather straps wrapped around the upper thighs. She wears brown fingerless leather gloves, a wristwatch on one wrist, thick white crew socks, and chunky brown lace-up hiking boots with black rubber soles.",
+  "gaussians": 254405,
+  "centre_m": [
+    0.0197,
+    -0.0171,
+    -2.006
+  ],
+  "size_m": {
+    "x": 0.862,
+    "y": 1.647,
+    "z": 0.373
+  },
+  "sog_bytes": 8415363,
+  "input": {
+    "w": 1400,
+    "h": 1240
+  },
+  "clip": {
+    "file": "clips/00157.clip.zip",
+    "bytes": 3931971
+  }
+}
