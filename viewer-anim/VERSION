@@ -1,2 +1,2 @@
 SuperSplat viewer 1.37.0 on PlayCanvas engine 2.23.0, plus the b2c rig playback (src/b2c in ~/Projects/supersplat-viewer-b2c, branch b2c-spike, uncommitted when copied 2026-10-15; public/ of its `npm run build`).
-Ours, not the build's: autoframe.js (as in viewer/) and inplace.js (holds the running subject on the spot, keeps the CPU sort's bounds around the pose).
+Ours, not the build's: autoframe.js (as in viewer/) and inplace.js (holds the running subject on the spot, keeps the CPU sort's bounds around the pose), playback.js (the play / pause button also pauses the clip).
