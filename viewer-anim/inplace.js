@@ -2,10 +2,13 @@
 //
 // A running clip carries the subject through the scene (body_world travels
 // metres along z), which a turntable camera cannot follow, and the clip jumps
-// back to its start when it loops. This flattens body_world's horizontal
-// track in the parsed clip before it is posed, so the subject runs where
-// autoframe.js and the camera expect it. Height and heading are left alone,
-// so the bounce of a stride stays.
+// back to its start when it loops. This takes the travel out of body_world's
+// horizontal track in the parsed clip before it is posed, so the subject runs
+// where autoframe.js and the camera expect it. Only the trend goes: a moving
+// average about a stride long, so each stride's surge stays. body_world is
+// the pelvis here, and pinning it exactly read as a camera bolted to the hips.
+// The window shrinks to nothing at the clip's ends, so the loop does not jump.
+// Height and heading are left alone, so the bounce of a stride stays.
 //
 // It also keeps the sorter's bounds around the posed splats. On WebGL the
 // engine sorts on the CPU, and spreads its sort keys over the distances to the
@@ -22,11 +25,18 @@ const b2c = await new Promise((resolve) => {
 const { clip, subject } = b2c;
 const J = subject.skeleton.joints.length;
 const joint = 0; // body_world: the skeleton's travelling joint, a child of the skeleton root
-const t = clip.t;
-for (let f = 1; f < clip.nframes; f++) {
-  const o = (f * J + joint) * 3;
-  t[o] = t[joint * 3];
-  t[o + 2] = t[joint * 3 + 2];
+const HALF_WINDOW = 5; // frames each side: +-0.17 s at 30 fps, about one stride in all
+const t = clip.t, n = clip.nframes;
+const track = (axis) => Array.from({ length: n }, (_, f) => t[(f * J + joint) * 3 + axis]);
+for (const axis of [0, 2]) {
+  const v = track(axis);
+  for (let f = 0; f < n; f++) {
+    const h = Math.min(HALF_WINDOW, f, n - 1 - f);
+    let mean = 0;
+    for (let k = f - h; k <= f + h; k++) mean += v[k];
+    mean /= 2 * h + 1;
+    t[(f * J + joint) * 3 + axis] = v[0] + v[f] - mean;
+  }
 }
 
 const resource = window.app.root.findComponents("gsplat")[0].resource;
