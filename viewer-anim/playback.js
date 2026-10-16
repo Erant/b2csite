@@ -25,3 +25,25 @@ if (!new URLSearchParams(location.search).has("b2cframe")) {
   // before the turntable starts the viewer is paused in orbit mode; only a pause in the track counts
   sync(state.cameraMode === "anim" && state.animationPaused);
 }
+
+// Play after orbiting by hand returns to the turntable at the track's own time,
+// so the camera swung round to wherever that was. Pick the track up at the
+// point of its circle nearest the current view instead: the viewer's glide
+// into the track then only evens out zoom and height. The track (the viewer's
+// createRotateTrack) circles the settings camera's target from its start
+// position, one turn per animationDuration, clockwise seen from above.
+const settings = await window.sse.settings;
+const initial = settings.cameras?.[0]?.initial;
+if (initial && !settings.animTracks?.length) {
+  const { state, events } = viewer;
+  const [px, , pz] = initial.position;
+  const [tx, , tz] = initial.target;
+  const startAngle = Math.atan2(px - tx, pz - tz);
+  const camera = window.app.root.findComponents("camera")[0].entity;
+  events.on("cameraMode:changed", (mode, prev) => {
+    if (mode !== "anim" || prev === "anim" || !state.loaded || !(state.animationDuration > 0)) return;
+    const p = camera.getPosition();
+    const turn = (startAngle - Math.atan2(p.x - tx, p.z - tz)) / (2 * Math.PI);
+    viewer.seek((turn - Math.floor(turn)) * state.animationDuration);
+  });
+}
