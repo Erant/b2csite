@@ -46,7 +46,7 @@ media, the settings and `data/runs/<id>.json`, whose `clip` entry makes the page
 `viewer-anim/` with the clip; the `.sog` still opens as a plain splat anywhere else):
 
 ```bash
-python3 tools/animated.py --id 00157 --sog lara.sog --clip lara.clip.zip --input ref.png --prompt ref.txt
+python3 tools/animated.py --id 00160 --sog subject.sog --clip subject.clip.zip --input ref.png --prompt ref.txt
 ```
 
 `viewer-anim/inplace.js` holds a running subject on the spot (it flattens the clip's travel) and

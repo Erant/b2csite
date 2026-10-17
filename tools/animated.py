@@ -18,7 +18,7 @@ Unlike a run's PLY, the web subject is stored upright in the b2crunner frame
 (y up, the figure facing +z): no turn about z is needed, and the viewer shows
 it unturned.
 
-  python3 tools/animated.py --id 00157 --sog lara.sog --clip lara.clip.zip \\
+  python3 tools/animated.py --id 00160 --sog subject.sog --clip subject.clip.zip \\
       --input ref.png --prompt prompt.txt
 
 A subject that depicts someone else's character is fan art: --character and

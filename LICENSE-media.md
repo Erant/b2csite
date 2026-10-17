@@ -16,8 +16,9 @@ keep it clear that it is synthetic.
 
 ## Fan art: not covered
 
-A few subjects are fan art of existing characters that we do not own (for example Vi from
-Arcane, owned by Riot Games, and Princess Zelda from The Legend of Zelda, owned by Nintendo).
+A few subjects are fan art of existing characters that we do not own (Lara Croft from Tomb
+Raider, owned by Crystal Dynamics; Vi from Arcane, owned by Riot Games; and Princess Zelda from
+The Legend of Zelda, owned by Nintendo).
 These are **not** licensed under CC BY 4.0 or any other license from us: the characters belong
 to their owners. They are marked as fan art on the page, which offers no download for them, and
 their entries in `data/runs/` carry a `fan_art` field naming the character and its owner. The
