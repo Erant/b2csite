@@ -213,7 +213,7 @@ a { color: inherit; }
   font-size: 14px;
   text-decoration: none;
 }
-.download[hidden] { display: none; }
+.downloads[hidden], .download[hidden] { display: none; }
 .download:hover { border-color: var(--accent); color: var(--accent); }
 
 .license {

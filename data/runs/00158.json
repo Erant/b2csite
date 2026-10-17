@@ -1,0 +1,29 @@
+{
+  "id": "00158",
+  "run": null,
+  "prompt": "Vi from Arcane (League of Legends), a tough young woman with short, messy hot pink-red hair that is shaved at the sides and the nape and has a long fringe swept over one eye, with a small tattoo mark on one cheek and tattoos on the neck. She wears a worn, cropped crimson red jacket with navy blue collar and trim, gold buttons, shoulder patches and a geometric panel design across the upper back, over a grayish-cream V-neck shirt and a navy undershirt with rolled sleeves. A brown leather belt with a gold diamond-shaped buckle crosses the hips. Her forearms and hands are encased in massive navy blue and gold hextech gauntlets with glowing blue circular cores at the outer forearm. She wears dark brown vertically striped trousers, tucked into black navy-lined worn leather lace-up boots with buckled straps and folded cuffs.",
+  "gaussians": 386001,
+  "centre_m": [
+    0.0138,
+    -0.0129,
+    -1.9991
+  ],
+  "size_m": {
+    "x": 0.78,
+    "y": 1.614,
+    "z": 0.38
+  },
+  "sog_bytes": 11085751,
+  "input": {
+    "w": 1400,
+    "h": 1240
+  },
+  "clip": {
+    "file": "clips/00158.clip.zip",
+    "bytes": 4801652
+  },
+  "fan_art": {
+    "character": "Vi from Arcane",
+    "owner": "Riot Games"
+  }
+}

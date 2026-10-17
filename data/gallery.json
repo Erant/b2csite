@@ -48,6 +48,64 @@
    }
   },
   {
+   "id": "00158",
+   "run": null,
+   "prompt": "Vi from Arcane (League of Legends), a tough young woman with short, messy hot pink-red hair that is shaved at the sides and the nape and has a long fringe swept over one eye, with a small tattoo mark on one cheek and tattoos on the neck. She wears a worn, cropped crimson red jacket with navy blue collar and trim, gold buttons, shoulder patches and a geometric panel design across the upper back, over a grayish-cream V-neck shirt and a navy undershirt with rolled sleeves. A brown leather belt with a gold diamond-shaped buckle crosses the hips. Her forearms and hands are encased in massive navy blue and gold hextech gauntlets with glowing blue circular cores at the outer forearm. She wears dark brown vertically striped trousers, tucked into black navy-lined worn leather lace-up boots with buckled straps and folded cuffs.",
+   "gaussians": 386001,
+   "centre_m": [
+    0.0138,
+    -0.0129,
+    -1.9991
+   ],
+   "size_m": {
+    "x": 0.78,
+    "y": 1.614,
+    "z": 0.38
+   },
+   "sog_bytes": 11085751,
+   "input": {
+    "w": 1400,
+    "h": 1240
+   },
+   "clip": {
+    "file": "clips/00158.clip.zip",
+    "bytes": 4801652
+   },
+   "fan_art": {
+    "character": "Vi from Arcane",
+    "owner": "Riot Games"
+   }
+  },
+  {
+   "id": "00159",
+   "run": null,
+   "prompt": "Princess Zelda from The Legend of Zelda: Breath of the Wild, a young elf woman with pointed ears, green eyes, and very long straight golden-blonde hair parted in the center, with thin braids along each side of the head that join at the back, and two blue hairclips. She wears a high white mandarin-collared undershirt with a textured geometric pattern, under a short blue cropped tunic with gold trim and a gold and blue patterned band across the midsection. The sleeves are blue at the shoulders and flare into loose, puffy cream-white sleeves with blue and gold cuffs. A wide brown leather belt with carved patterns sits at the waist over the hem of a blue tunic skirt with gold trim. A Sheikah Slate tablet with a red and gold emblem hangs from the belt. She wears black fingerless gloves, dark brown fitted trousers, and brown leather knee-high boots with tan folded cuffs at the top and buckled straps.",
+   "gaussians": 385490,
+   "centre_m": [
+    0.0087,
+    -0.004,
+    -1.9465
+   ],
+   "size_m": {
+    "x": 0.805,
+    "y": 1.584,
+    "z": 0.377
+   },
+   "sog_bytes": 11109527,
+   "input": {
+    "w": 1400,
+    "h": 1240
+   },
+   "clip": {
+    "file": "clips/00159.clip.zip",
+    "bytes": 3037006
+   },
+   "fan_art": {
+    "character": "Princess Zelda from The Legend of Zelda",
+    "owner": "Nintendo"
+   }
+  },
+  {
    "id": "00055",
    "run": "helical-joined_00055-20261005-132736-d97c32",
    "prompt": "a man in his sixties with a bald head, a full grey beard, and a stocky build, wearing a white collared shirt under a dark grey waistcoat with four buttons, and a green and blue tartan kilt with a silver-buckled sporran hanging at the front, black leather lace-up boots with dark green knee-high socks, standing upright with hands on hips, soft, even, low-contrast studio lighting.",

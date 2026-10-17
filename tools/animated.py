@@ -20,6 +20,13 @@ it unturned.
 
   python3 tools/animated.py --id 00157 --sog lara.sog --clip lara.clip.zip \\
       --input ref.png --prompt prompt.txt
+
+A subject that depicts someone else's character is fan art: --character and
+--owner name them, and the page then offers no download and does not put it
+under CC BY 4.0.
+
+  python3 tools/animated.py --id 00158 --sog vi.sog --clip vi.clip.zip \\
+      --character "Vi from Arcane" --owner "Riot Games"
 """
 import argparse
 import json
@@ -43,7 +50,11 @@ def main():
     ap.add_argument("--clip", required=True, type=Path)
     ap.add_argument("--input", type=Path, help="the reference sheet image")
     ap.add_argument("--prompt", type=Path, help="text file with the prompt")
+    ap.add_argument("--character", help="the existing character it depicts (fan art: no download, not CC BY)")
+    ap.add_argument("--owner", help="who owns that character")
     args = ap.parse_args()
+    if bool(args.character) != bool(args.owner):
+        ap.error("--character and --owner go together")
     rid = args.id
 
     st = build.splat_transform()
@@ -100,6 +111,8 @@ def main():
         "input": {"w": input_size[0], "h": input_size[1]} if input_size else None,
         "clip": {"file": f"clips/{rid}.clip.zip", "bytes": (SITE / "clips" / f"{rid}.clip.zip").stat().st_size},
     }
+    if args.character:
+        meta["fan_art"] = {"character": args.character, "owner": args.owner}
     (SITE / "data" / "runs" / f"{rid}.json").write_text(json.dumps(meta, indent=2) + "\n")
     print(f"{rid}: {count} gaussians, centre {centre}, size {size}")
     curation = json.loads((build.TOOLS / "curation.json").read_text())

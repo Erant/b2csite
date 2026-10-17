@@ -44,6 +44,16 @@
     $("prompt").parentElement.hidden = !run.prompt;
     $("stat-count").textContent = run.gaussians.toLocaleString("en-US");
     $("stat-size").textContent = mb(run.sog_bytes);
+    // Fan art depicts a character we do not own: no download, and not CC BY.
+    const fanArt = run.fan_art;
+    $("downloads").hidden = !!fanArt;
+    $("license").hidden = !!fanArt;
+    $("license-fan-art").hidden = !fanArt;
+    $("stat-size-label").textContent = fanArt ? "Size" : "Download";
+    if (fanArt) {
+      $("fan-art-character").textContent = fanArt.character;
+      $("fan-art-owner").textContent = fanArt.owner;
+    }
     $("download").href = `splats/${run.id}.sog`;
     $("download-clip").hidden = !run.clip;
     if (run.clip) {

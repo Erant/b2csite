@@ -52,6 +52,8 @@ python3 tools/animated.py --id 00157 --sog lara.sog --clip lara.clip.zip --input
 `viewer-anim/inplace.js` holds a running subject on the spot (it flattens the clip's travel) and
 grows the splat's bounds to every pose: on WebGL the engine sorts on the CPU over the rest pose's bounds,
 and splats posed outside them lose their draw order (the far side shows through).
+A subject of someone else's character is fan art: pass `--character "Vi from Arcane" --owner "Riot Games"`
+and the page shows it without downloads and says it is not under CC BY 4.0.
 Animated ids need an entry in `tools/curation.json` `order` only if you want them ahead of the rest.
 
 ## Curating
@@ -73,7 +75,8 @@ The page needs to be served over HTTP: `fetch` does not work from `file://`.
 The splats, thumbnails, reference sheets and prompts (`splats/`, `thumbs/`, `inputs/`,
 `data/`) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/):
 see `LICENSE-media.md`. The people they show are synthetic, and the page says so
-next to every download.
+next to every download. Fan art of existing characters (the runs with a `fan_art` entry) is
+excluded: those characters belong to their owners, and the page offers no download for them.
 
 ## Publishing
 
